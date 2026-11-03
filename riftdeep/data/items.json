@@ -1,0 +1,10193 @@
+{
+	"settings": {
+		"tiers": {
+			"req_level": [
+				1,
+				10,
+				20,
+				30,
+				45,
+				60,
+				75,
+				90
+			],
+			"req_stat": [
+				0,
+				8,
+				16,
+				24,
+				36,
+				48,
+				60,
+				72
+			],
+			"affix_min_ilvl": [
+				1,
+				12,
+				25,
+				40,
+				55,
+				70,
+				82,
+				95
+			],
+			"value": [
+				13,
+				55,
+				130,
+				235,
+				448,
+				730,
+				1078,
+				1495
+			]
+		},
+		"rarity_value_mult": {
+			"normal": 1.0,
+			"magic": 2.5,
+			"rare": 6.0,
+			"unique": 12.0
+		},
+		"jewel_value_mult": 1.2,
+		"drop_chances": {
+			"normal": {
+				"magic": 0.32,
+				"rare": 0.1,
+				"unique": 0.015
+			},
+			"boss": {
+				"magic": 0.45,
+				"rare": 0.4,
+				"unique": 0.08
+			}
+		},
+		"magic_two_affix_chance": 0.5,
+		"rare_affix_min": 3,
+		"rare_affix_max": 5,
+		"max_level": 90
+	},
+	"bases": [
+		{
+			"id": "axe_1",
+			"name": "Bronze Greataxe",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "d12",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 14
+		},
+		{
+			"id": "axe_2",
+			"name": "Bronze Greataxe +1",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 1,
+			"req_level": 3,
+			"req_stat": 2,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "d12",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 14
+		},
+		{
+			"id": "axe_3",
+			"name": "Iron Greataxe +2",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 2,
+			"req_level": 6,
+			"req_stat": 5,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "d12",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 14
+		},
+		{
+			"id": "axe_4",
+			"name": "Iron Greataxe",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 2,
+			"req_level": 8,
+			"req_stat": 6,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "d12",
+			"dmg_flat": 4,
+			"dmg_min": 5,
+			"dmg_max": 16
+		},
+		{
+			"id": "axe_5",
+			"name": "Iron Greataxe +1",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 2,
+			"req_level": 11,
+			"req_stat": 9,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "d12",
+			"dmg_flat": 4,
+			"dmg_min": 5,
+			"dmg_max": 16
+		},
+		{
+			"id": "axe_6",
+			"name": "Steel Greataxe +2",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 3,
+			"req_level": 13,
+			"req_stat": 10,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "d12",
+			"dmg_flat": 4,
+			"dmg_min": 5,
+			"dmg_max": 16
+		},
+		{
+			"id": "axe_7",
+			"name": "Steel Greataxe",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 3,
+			"req_level": 16,
+			"req_stat": 13,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "2d12",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 30
+		},
+		{
+			"id": "axe_8",
+			"name": "Steel Greataxe +1",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 3,
+			"req_level": 18,
+			"req_stat": 14,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "2d12",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 30
+		},
+		{
+			"id": "axe_9",
+			"name": "Steel Greataxe +2",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 3,
+			"req_level": 21,
+			"req_stat": 17,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "2d12",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 30
+		},
+		{
+			"id": "axe_10",
+			"name": "Silver Greataxe +3",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 4,
+			"req_level": 23,
+			"req_stat": 18,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "2d12",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 30
+		},
+		{
+			"id": "axe_11",
+			"name": "Silver Greataxe",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 4,
+			"req_level": 26,
+			"req_stat": 21,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "2d12",
+			"dmg_flat": 9,
+			"dmg_min": 11,
+			"dmg_max": 33
+		},
+		{
+			"id": "axe_12",
+			"name": "Silver Greataxe +1",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 4,
+			"req_level": 28,
+			"req_stat": 22,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "2d12",
+			"dmg_flat": 9,
+			"dmg_min": 11,
+			"dmg_max": 33
+		},
+		{
+			"id": "axe_13",
+			"name": "Silver Greataxe +2",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 4,
+			"req_level": 31,
+			"req_stat": 25,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "2d12",
+			"dmg_flat": 9,
+			"dmg_min": 11,
+			"dmg_max": 33
+		},
+		{
+			"id": "axe_14",
+			"name": "Mithril Greataxe +3",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 5,
+			"req_level": 33,
+			"req_stat": 26,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "2d12",
+			"dmg_flat": 9,
+			"dmg_min": 11,
+			"dmg_max": 33
+		},
+		{
+			"id": "axe_15",
+			"name": "Mithril Greataxe",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 5,
+			"req_level": 36,
+			"req_stat": 29,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 47
+		},
+		{
+			"id": "axe_16",
+			"name": "Mithril Greataxe +1",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 5,
+			"req_level": 38,
+			"req_stat": 30,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 47
+		},
+		{
+			"id": "axe_17",
+			"name": "Mithril Greataxe +2",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 5,
+			"req_level": 41,
+			"req_stat": 33,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 47
+		},
+		{
+			"id": "axe_18",
+			"name": "Mithril Greataxe +3",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 5,
+			"req_level": 43,
+			"req_stat": 34,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 47
+		},
+		{
+			"id": "axe_19",
+			"name": "Adamant Greataxe +4",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 6,
+			"req_level": 46,
+			"req_stat": 37,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 47
+		},
+		{
+			"id": "axe_20",
+			"name": "Adamant Greataxe",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 6,
+			"req_level": 48,
+			"req_stat": 38,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 13,
+			"dmg_min": 16,
+			"dmg_max": 49
+		},
+		{
+			"id": "axe_21",
+			"name": "Adamant Greataxe +1",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 6,
+			"req_level": 51,
+			"req_stat": 41,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 13,
+			"dmg_min": 16,
+			"dmg_max": 49
+		},
+		{
+			"id": "axe_22",
+			"name": "Adamant Greataxe +2",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 6,
+			"req_level": 53,
+			"req_stat": 42,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 13,
+			"dmg_min": 16,
+			"dmg_max": 49
+		},
+		{
+			"id": "axe_23",
+			"name": "Adamant Greataxe +3",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 6,
+			"req_level": 56,
+			"req_stat": 45,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 13,
+			"dmg_min": 16,
+			"dmg_max": 49
+		},
+		{
+			"id": "axe_24",
+			"name": "Runic Greataxe +4",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 7,
+			"req_level": 58,
+			"req_stat": 46,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "3d12",
+			"dmg_flat": 13,
+			"dmg_min": 16,
+			"dmg_max": 49
+		},
+		{
+			"id": "axe_25",
+			"name": "Runic Greataxe",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 7,
+			"req_level": 61,
+			"req_stat": 49,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 63
+		},
+		{
+			"id": "axe_26",
+			"name": "Runic Greataxe +1",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 7,
+			"req_level": 63,
+			"req_stat": 50,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 63
+		},
+		{
+			"id": "axe_27",
+			"name": "Runic Greataxe +2",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 7,
+			"req_level": 66,
+			"req_stat": 53,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 63
+		},
+		{
+			"id": "axe_28",
+			"name": "Runic Greataxe +3",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 7,
+			"req_level": 68,
+			"req_stat": 54,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 63
+		},
+		{
+			"id": "axe_29",
+			"name": "Runic Greataxe +4",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 7,
+			"req_level": 71,
+			"req_stat": 57,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 63
+		},
+		{
+			"id": "axe_30",
+			"name": "Celestial Greataxe +5",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 73,
+			"req_stat": 58,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 63
+		},
+		{
+			"id": "axe_31",
+			"name": "Celestial Greataxe",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 76,
+			"req_stat": 61,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_32",
+			"name": "Celestial Greataxe +1",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 78,
+			"req_stat": 62,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_33",
+			"name": "Celestial Greataxe +2",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 79,
+			"req_stat": 63,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_34",
+			"name": "Celestial Greataxe +3",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 80,
+			"req_stat": 64,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_35",
+			"name": "Celestial Greataxe +4",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 82,
+			"req_stat": 66,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_36",
+			"name": "Celestial Greataxe +5",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 83,
+			"req_stat": 66,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_37",
+			"name": "Celestial Greataxe +6",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 85,
+			"req_stat": 68,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_38",
+			"name": "Celestial Greataxe +7",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 86,
+			"req_stat": 69,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_39",
+			"name": "Celestial Greataxe +8",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 87,
+			"req_stat": 70,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_40",
+			"name": "Celestial Greataxe +9",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 88,
+			"req_stat": 70,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "axe_41",
+			"name": "Celestial Greataxe +10",
+			"cat": "weapon",
+			"kind": "axe",
+			"style": "str",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Two-Handed Axe",
+			"dice": "4d12",
+			"dmg_flat": 17,
+			"dmg_min": 21,
+			"dmg_max": 65
+		},
+		{
+			"id": "sword_1",
+			"name": "Bronze Sword",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "d8",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 10
+		},
+		{
+			"id": "sword_2",
+			"name": "Bronze Sword +1",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 1,
+			"req_level": 4,
+			"req_stat": 3,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "d8",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 10
+		},
+		{
+			"id": "sword_3",
+			"name": "Bronze Sword +2",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 1,
+			"req_level": 7,
+			"req_stat": 6,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "d8",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 10
+		},
+		{
+			"id": "sword_4",
+			"name": "Iron Sword",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "d8",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 11
+		},
+		{
+			"id": "sword_5",
+			"name": "Iron Sword +1",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 2,
+			"req_level": 12,
+			"req_stat": 10,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "d8",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 11
+		},
+		{
+			"id": "sword_6",
+			"name": "Iron Sword +2",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 2,
+			"req_level": 15,
+			"req_stat": 12,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "d8",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 11
+		},
+		{
+			"id": "sword_7",
+			"name": "Steel Sword",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 3,
+			"req_level": 17,
+			"req_stat": 14,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "2d8",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 21
+		},
+		{
+			"id": "sword_8",
+			"name": "Steel Sword +1",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "2d8",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 21
+		},
+		{
+			"id": "sword_9",
+			"name": "Steel Sword +2",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 3,
+			"req_level": 22,
+			"req_stat": 18,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "2d8",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 21
+		},
+		{
+			"id": "sword_10",
+			"name": "Steel Sword +3",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 3,
+			"req_level": 25,
+			"req_stat": 20,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "2d8",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 21
+		},
+		{
+			"id": "sword_11",
+			"name": "Silver Sword",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 4,
+			"req_level": 27,
+			"req_stat": 22,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "2d8",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 22
+		},
+		{
+			"id": "sword_12",
+			"name": "Silver Sword +1",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "2d8",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 22
+		},
+		{
+			"id": "sword_13",
+			"name": "Silver Sword +2",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 4,
+			"req_level": 32,
+			"req_stat": 26,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "2d8",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 22
+		},
+		{
+			"id": "sword_14",
+			"name": "Silver Sword +3",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 4,
+			"req_level": 35,
+			"req_stat": 28,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "2d8",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 22
+		},
+		{
+			"id": "sword_15",
+			"name": "Mithril Sword",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 5,
+			"req_level": 37,
+			"req_stat": 30,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "sword_16",
+			"name": "Mithril Sword +1",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 5,
+			"req_level": 40,
+			"req_stat": 32,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "sword_17",
+			"name": "Mithril Sword +2",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 5,
+			"req_level": 42,
+			"req_stat": 34,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "sword_18",
+			"name": "Mithril Sword +3",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "sword_19",
+			"name": "Mithril Sword +4",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 5,
+			"req_level": 47,
+			"req_stat": 38,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "sword_20",
+			"name": "Adamant Sword",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 6,
+			"req_level": 50,
+			"req_stat": 40,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "sword_21",
+			"name": "Adamant Sword +1",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 6,
+			"req_level": 52,
+			"req_stat": 42,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "sword_22",
+			"name": "Adamant Sword +2",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 6,
+			"req_level": 55,
+			"req_stat": 44,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "sword_23",
+			"name": "Adamant Sword +3",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 6,
+			"req_level": 57,
+			"req_stat": 46,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "sword_24",
+			"name": "Adamant Sword +4",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "sword_25",
+			"name": "Runic Sword",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 7,
+			"req_level": 62,
+			"req_stat": 50,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "sword_26",
+			"name": "Runic Sword +1",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 7,
+			"req_level": 65,
+			"req_stat": 52,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "sword_27",
+			"name": "Runic Sword +2",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 7,
+			"req_level": 67,
+			"req_stat": 54,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "sword_28",
+			"name": "Runic Sword +3",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 7,
+			"req_level": 70,
+			"req_stat": 56,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "sword_29",
+			"name": "Runic Sword +4",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 7,
+			"req_level": 72,
+			"req_stat": 58,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "sword_30",
+			"name": "Runic Sword +5",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "sword_31",
+			"name": "Celestial Sword",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 77,
+			"req_stat": 62,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_32",
+			"name": "Celestial Sword +1",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 80,
+			"req_stat": 64,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_33",
+			"name": "Celestial Sword +2",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 81,
+			"req_stat": 65,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_34",
+			"name": "Celestial Sword +3",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 82,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_35",
+			"name": "Celestial Sword +4",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 84,
+			"req_stat": 67,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_36",
+			"name": "Celestial Sword +5",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 85,
+			"req_stat": 68,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_37",
+			"name": "Celestial Sword +6",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 86,
+			"req_stat": 69,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_38",
+			"name": "Celestial Sword +7",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 87,
+			"req_stat": 70,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_39",
+			"name": "Celestial Sword +8",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 88,
+			"req_stat": 70,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_40",
+			"name": "Celestial Sword +9",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 89,
+			"req_stat": 71,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "sword_41",
+			"name": "Celestial Sword +10",
+			"cat": "weapon",
+			"kind": "sword",
+			"style": "str",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "One-Handed Sword",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "dagger_1",
+			"name": "Bronze Dagger",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 5
+			},
+			"label": "Dagger",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "dagger_2",
+			"name": "Bronze Dagger +1",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 5,
+			"req_stat": 4,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 5
+			},
+			"label": "Dagger",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "dagger_3",
+			"name": "Bronze Dagger +2",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 8,
+			"req_stat": 6,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 5
+			},
+			"label": "Dagger",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "dagger_4",
+			"name": "Iron Dagger",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 11,
+			"req_stat": 9,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 5
+			},
+			"label": "Dagger",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "dagger_5",
+			"name": "Iron Dagger +1",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 13,
+			"req_stat": 10,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 5
+			},
+			"label": "Dagger",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "dagger_6",
+			"name": "Iron Dagger +2",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 16,
+			"req_stat": 13,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "dagger_7",
+			"name": "Steel Dagger",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 18,
+			"req_stat": 14,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "d6",
+			"dmg_flat": 5,
+			"dmg_min": 6,
+			"dmg_max": 11
+		},
+		{
+			"id": "dagger_8",
+			"name": "Steel Dagger +1",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 21,
+			"req_stat": 17,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "dagger_9",
+			"name": "Steel Dagger +2",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 23,
+			"req_stat": 18,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "dagger_10",
+			"name": "Steel Dagger +3",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 26,
+			"req_stat": 21,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "dagger_11",
+			"name": "Silver Dagger",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 28,
+			"req_stat": 22,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "dagger_12",
+			"name": "Silver Dagger +1",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 31,
+			"req_stat": 25,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "dagger_13",
+			"name": "Silver Dagger +2",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 33,
+			"req_stat": 26,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "dagger_14",
+			"name": "Silver Dagger +3",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 36,
+			"req_stat": 29,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "dagger_15",
+			"name": "Mithril Dagger",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 38,
+			"req_stat": 30,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "2d6",
+			"dmg_flat": 7,
+			"dmg_min": 9,
+			"dmg_max": 19
+		},
+		{
+			"id": "dagger_16",
+			"name": "Mithril Dagger +1",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 41,
+			"req_stat": 33,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "dagger_17",
+			"name": "Mithril Dagger +2",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 43,
+			"req_stat": 34,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 6
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "dagger_18",
+			"name": "Mithril Dagger +3",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 46,
+			"req_stat": 37,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "dagger_19",
+			"name": "Mithril Dagger +4",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 48,
+			"req_stat": 38,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "dagger_20",
+			"name": "Adamant Dagger",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 51,
+			"req_stat": 41,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "dagger_21",
+			"name": "Adamant Dagger +1",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 53,
+			"req_stat": 42,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "dagger_22",
+			"name": "Adamant Dagger +2",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 56,
+			"req_stat": 45,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "dagger_23",
+			"name": "Adamant Dagger +3",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 58,
+			"req_stat": 46,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "dagger_24",
+			"name": "Adamant Dagger +4",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 61,
+			"req_stat": 49,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "dagger_25",
+			"name": "Runic Dagger",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 63,
+			"req_stat": 50,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "3d6",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 28
+		},
+		{
+			"id": "dagger_26",
+			"name": "Runic Dagger +1",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 66,
+			"req_stat": 53,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "dagger_27",
+			"name": "Runic Dagger +2",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 68,
+			"req_stat": 54,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "dagger_28",
+			"name": "Runic Dagger +3",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 71,
+			"req_stat": 57,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "dagger_29",
+			"name": "Runic Dagger +4",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 73,
+			"req_stat": 58,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 7
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "dagger_30",
+			"name": "Runic Dagger +5",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 76,
+			"req_stat": 61,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "dagger_31",
+			"name": "Celestial Dagger",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 78,
+			"req_stat": 62,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_32",
+			"name": "Celestial Dagger +1",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 80,
+			"req_stat": 64,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_33",
+			"name": "Celestial Dagger +2",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 81,
+			"req_stat": 65,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_34",
+			"name": "Celestial Dagger +3",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 83,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_35",
+			"name": "Celestial Dagger +4",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 82,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_36",
+			"name": "Celestial Dagger +5",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 83,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_37",
+			"name": "Celestial Dagger +6",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 84,
+			"req_stat": 67,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_38",
+			"name": "Celestial Dagger +7",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 85,
+			"req_stat": 68,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_39",
+			"name": "Celestial Dagger +8",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 86,
+			"req_stat": 69,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_40",
+			"name": "Celestial Dagger +9",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 87,
+			"req_stat": 70,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "dagger_41",
+			"name": "Celestial Dagger +10",
+			"cat": "weapon",
+			"kind": "dagger",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"crit": 8
+			},
+			"label": "Dagger",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "bow_1",
+			"name": "Ash Bow",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "d10",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 12
+		},
+		{
+			"id": "bow_2",
+			"name": "Ash Bow +1",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 2,
+			"req_stat": 2,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "d10",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 12
+		},
+		{
+			"id": "bow_3",
+			"name": "Ash Bow +2",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 5,
+			"req_stat": 4,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "d10",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 12
+		},
+		{
+			"id": "bow_4",
+			"name": "Yew Bow",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 7,
+			"req_stat": 6,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "d10",
+			"dmg_flat": 4,
+			"dmg_min": 5,
+			"dmg_max": 14
+		},
+		{
+			"id": "bow_5",
+			"name": "Yew Bow +1",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "d10",
+			"dmg_flat": 4,
+			"dmg_min": 5,
+			"dmg_max": 14
+		},
+		{
+			"id": "bow_6",
+			"name": "Yew Bow +2",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 12,
+			"req_stat": 10,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "d10",
+			"dmg_flat": 4,
+			"dmg_min": 5,
+			"dmg_max": 14
+		},
+		{
+			"id": "bow_7",
+			"name": "Horn Bow",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 15,
+			"req_stat": 12,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "2d10",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 26
+		},
+		{
+			"id": "bow_8",
+			"name": "Horn Bow +1",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 17,
+			"req_stat": 14,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "2d10",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 26
+		},
+		{
+			"id": "bow_9",
+			"name": "Horn Bow +2",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "2d10",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 26
+		},
+		{
+			"id": "bow_10",
+			"name": "Horn Bow +3",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 22,
+			"req_stat": 18,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "2d10",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 26
+		},
+		{
+			"id": "bow_11",
+			"name": "Elven Bow",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 25,
+			"req_stat": 20,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "2d10",
+			"dmg_flat": 8,
+			"dmg_min": 10,
+			"dmg_max": 28
+		},
+		{
+			"id": "bow_12",
+			"name": "Elven Bow +1",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 27,
+			"req_stat": 22,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "2d10",
+			"dmg_flat": 8,
+			"dmg_min": 10,
+			"dmg_max": 28
+		},
+		{
+			"id": "bow_13",
+			"name": "Elven Bow +2",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "2d10",
+			"dmg_flat": 8,
+			"dmg_min": 10,
+			"dmg_max": 28
+		},
+		{
+			"id": "bow_14",
+			"name": "Elven Bow +3",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 32,
+			"req_stat": 26,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "2d10",
+			"dmg_flat": 8,
+			"dmg_min": 10,
+			"dmg_max": 28
+		},
+		{
+			"id": "bow_15",
+			"name": "Wyrmhorn Bow",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 35,
+			"req_stat": 28,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 40
+		},
+		{
+			"id": "bow_16",
+			"name": "Wyrmhorn Bow +1",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 37,
+			"req_stat": 30,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 40
+		},
+		{
+			"id": "bow_17",
+			"name": "Wyrmhorn Bow +2",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 40,
+			"req_stat": 32,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 40
+		},
+		{
+			"id": "bow_18",
+			"name": "Wyrmhorn Bow +3",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 42,
+			"req_stat": 34,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 40
+		},
+		{
+			"id": "bow_19",
+			"name": "Wyrmhorn Bow +4",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 40
+		},
+		{
+			"id": "bow_20",
+			"name": "Stormwood Bow",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 47,
+			"req_stat": 38,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 41
+		},
+		{
+			"id": "bow_21",
+			"name": "Stormwood Bow +1",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 50,
+			"req_stat": 40,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 41
+		},
+		{
+			"id": "bow_22",
+			"name": "Stormwood Bow +2",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 52,
+			"req_stat": 42,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 41
+		},
+		{
+			"id": "bow_23",
+			"name": "Stormwood Bow +3",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 55,
+			"req_stat": 44,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 41
+		},
+		{
+			"id": "bow_24",
+			"name": "Stormwood Bow +4",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 57,
+			"req_stat": 46,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "3d10",
+			"dmg_flat": 11,
+			"dmg_min": 14,
+			"dmg_max": 41
+		},
+		{
+			"id": "bow_25",
+			"name": "Runic Bow",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 53
+		},
+		{
+			"id": "bow_26",
+			"name": "Runic Bow +1",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 62,
+			"req_stat": 50,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 53
+		},
+		{
+			"id": "bow_27",
+			"name": "Runic Bow +2",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 65,
+			"req_stat": 52,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 53
+		},
+		{
+			"id": "bow_28",
+			"name": "Runic Bow +3",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 67,
+			"req_stat": 54,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 53
+		},
+		{
+			"id": "bow_29",
+			"name": "Runic Bow +4",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 70,
+			"req_stat": 56,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 53
+		},
+		{
+			"id": "bow_30",
+			"name": "Runic Bow +5",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 72,
+			"req_stat": 58,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 53
+		},
+		{
+			"id": "bow_31",
+			"name": "Celestial Bow",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_32",
+			"name": "Celestial Bow +1",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 77,
+			"req_stat": 62,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_33",
+			"name": "Celestial Bow +2",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 79,
+			"req_stat": 63,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_34",
+			"name": "Celestial Bow +3",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 81,
+			"req_stat": 65,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_35",
+			"name": "Celestial Bow +4",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 82,
+			"req_stat": 66,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_36",
+			"name": "Celestial Bow +5",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 84,
+			"req_stat": 67,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_37",
+			"name": "Celestial Bow +6",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 86,
+			"req_stat": 69,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_38",
+			"name": "Celestial Bow +7",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 87,
+			"req_stat": 70,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_39",
+			"name": "Celestial Bow +8",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 88,
+			"req_stat": 70,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_40",
+			"name": "Celestial Bow +9",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 89,
+			"req_stat": 71,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "bow_41",
+			"name": "Celestial Bow +10",
+			"cat": "weapon",
+			"kind": "bow",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {},
+			"label": "Bow (two-handed, needed to Shoot)",
+			"dice": "4d10",
+			"dmg_flat": 15,
+			"dmg_min": 19,
+			"dmg_max": 55
+		},
+		{
+			"id": "wand_1",
+			"name": "Driftwood Wand",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 10
+			},
+			"label": "Wand",
+			"dice": "d8",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 10
+		},
+		{
+			"id": "wand_2",
+			"name": "Driftwood Wand +1",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 1,
+			"req_level": 3,
+			"req_stat": 2,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 11
+			},
+			"label": "Wand",
+			"dice": "d8",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 10
+		},
+		{
+			"id": "wand_3",
+			"name": "Driftwood Wand +2",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 1,
+			"req_level": 6,
+			"req_stat": 5,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 11
+			},
+			"label": "Wand",
+			"dice": "d8",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 10
+		},
+		{
+			"id": "wand_4",
+			"name": "Bone Wand",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 2,
+			"req_level": 9,
+			"req_stat": 7,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 12
+			},
+			"label": "Wand",
+			"dice": "d8",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 11
+		},
+		{
+			"id": "wand_5",
+			"name": "Bone Wand +1",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 2,
+			"req_level": 11,
+			"req_stat": 9,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 13
+			},
+			"label": "Wand",
+			"dice": "d8",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 11
+		},
+		{
+			"id": "wand_6",
+			"name": "Bone Wand +2",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 2,
+			"req_level": 14,
+			"req_stat": 11,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 14
+			},
+			"label": "Wand",
+			"dice": "d8",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 11
+		},
+		{
+			"id": "wand_7",
+			"name": "Crystal Wand",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 3,
+			"req_level": 16,
+			"req_stat": 13,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 14
+			},
+			"label": "Wand",
+			"dice": "2d8",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 21
+		},
+		{
+			"id": "wand_8",
+			"name": "Crystal Wand +1",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 3,
+			"req_level": 19,
+			"req_stat": 15,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 15
+			},
+			"label": "Wand",
+			"dice": "2d8",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 21
+		},
+		{
+			"id": "wand_9",
+			"name": "Crystal Wand +2",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 3,
+			"req_level": 21,
+			"req_stat": 17,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 15
+			},
+			"label": "Wand",
+			"dice": "2d8",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 21
+		},
+		{
+			"id": "wand_10",
+			"name": "Crystal Wand +3",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 3,
+			"req_level": 24,
+			"req_stat": 19,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 16
+			},
+			"label": "Wand",
+			"dice": "2d8",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 21
+		},
+		{
+			"id": "wand_11",
+			"name": "Runed Wand",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 4,
+			"req_level": 26,
+			"req_stat": 21,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 17
+			},
+			"label": "Wand",
+			"dice": "2d8",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 22
+		},
+		{
+			"id": "wand_12",
+			"name": "Runed Wand +1",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 4,
+			"req_level": 29,
+			"req_stat": 23,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 18
+			},
+			"label": "Wand",
+			"dice": "2d8",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 22
+		},
+		{
+			"id": "wand_13",
+			"name": "Runed Wand +2",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 4,
+			"req_level": 31,
+			"req_stat": 25,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 18
+			},
+			"label": "Wand",
+			"dice": "2d8",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 22
+		},
+		{
+			"id": "wand_14",
+			"name": "Runed Wand +3",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 4,
+			"req_level": 34,
+			"req_stat": 27,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 19
+			},
+			"label": "Wand",
+			"dice": "2d8",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 22
+		},
+		{
+			"id": "wand_15",
+			"name": "Moonsilver Wand",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 5,
+			"req_level": 36,
+			"req_stat": 29,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 19
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "wand_16",
+			"name": "Moonsilver Wand +1",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 5,
+			"req_level": 39,
+			"req_stat": 31,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 20
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "wand_17",
+			"name": "Moonsilver Wand +2",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 5,
+			"req_level": 41,
+			"req_stat": 33,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 21
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "wand_18",
+			"name": "Moonsilver Wand +3",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 5,
+			"req_level": 44,
+			"req_stat": 35,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 22
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "wand_19",
+			"name": "Moonsilver Wand +4",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 5,
+			"req_level": 46,
+			"req_stat": 37,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 22
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 8,
+			"dmg_min": 11,
+			"dmg_max": 32
+		},
+		{
+			"id": "wand_20",
+			"name": "Starlit Wand",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 6,
+			"req_level": 49,
+			"req_stat": 39,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 23
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "wand_21",
+			"name": "Starlit Wand +1",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 6,
+			"req_level": 51,
+			"req_stat": 41,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 23
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "wand_22",
+			"name": "Starlit Wand +2",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 6,
+			"req_level": 54,
+			"req_stat": 43,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 24
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "wand_23",
+			"name": "Starlit Wand +3",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 6,
+			"req_level": 56,
+			"req_stat": 45,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 25
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "wand_24",
+			"name": "Starlit Wand +4",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 6,
+			"req_level": 59,
+			"req_stat": 47,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 26
+			},
+			"label": "Wand",
+			"dice": "3d8",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 34
+		},
+		{
+			"id": "wand_25",
+			"name": "Archon Wand",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 7,
+			"req_level": 61,
+			"req_stat": 49,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 26
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "wand_26",
+			"name": "Archon Wand +1",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 7,
+			"req_level": 64,
+			"req_stat": 51,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 27
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "wand_27",
+			"name": "Archon Wand +2",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 7,
+			"req_level": 66,
+			"req_stat": 53,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 28
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "wand_28",
+			"name": "Archon Wand +3",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 7,
+			"req_level": 69,
+			"req_stat": 55,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 28
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "wand_29",
+			"name": "Archon Wand +4",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 7,
+			"req_level": 71,
+			"req_stat": 57,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 29
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "wand_30",
+			"name": "Archon Wand +5",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 7,
+			"req_level": 74,
+			"req_stat": 59,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 30
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 43
+		},
+		{
+			"id": "wand_31",
+			"name": "Celestial Wand",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 76,
+			"req_stat": 61,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 30
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_32",
+			"name": "Celestial Wand +1",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 77,
+			"req_stat": 62,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 30
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_33",
+			"name": "Celestial Wand +2",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 78,
+			"req_stat": 62,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 31
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_34",
+			"name": "Celestial Wand +3",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 79,
+			"req_stat": 63,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 31
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_35",
+			"name": "Celestial Wand +4",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 80,
+			"req_stat": 64,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 31
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_36",
+			"name": "Celestial Wand +5",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 81,
+			"req_stat": 65,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 32
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_37",
+			"name": "Celestial Wand +6",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 82,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 32
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_38",
+			"name": "Celestial Wand +7",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 83,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 32
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_39",
+			"name": "Celestial Wand +8",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 84,
+			"req_stat": 67,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 32
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_40",
+			"name": "Celestial Wand +9",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 86,
+			"req_stat": 69,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 33
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "wand_41",
+			"name": "Celestial Wand +10",
+			"cat": "weapon",
+			"kind": "wand",
+			"style": "int",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 34
+			},
+			"label": "Wand",
+			"dice": "4d8",
+			"dmg_flat": 13,
+			"dmg_min": 17,
+			"dmg_max": 45
+		},
+		{
+			"id": "staff_1",
+			"name": "Driftwood Staff",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 15,
+				"mp": 5
+			},
+			"label": "Two-Handed Staff",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "staff_2",
+			"name": "Driftwood Staff +1",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 1,
+			"req_level": 4,
+			"req_stat": 3,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 16,
+				"mp": 9
+			},
+			"label": "Two-Handed Staff",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "staff_3",
+			"name": "Driftwood Staff +2",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 1,
+			"req_level": 7,
+			"req_stat": 6,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 18,
+				"mp": 13
+			},
+			"label": "Two-Handed Staff",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "staff_4",
+			"name": "Bone Staff",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 19,
+				"mp": 17
+			},
+			"label": "Two-Handed Staff",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "staff_5",
+			"name": "Bone Staff +1",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 2,
+			"req_level": 12,
+			"req_stat": 10,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 20,
+				"mp": 19
+			},
+			"label": "Two-Handed Staff",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "staff_6",
+			"name": "Bone Staff +2",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 2,
+			"req_level": 15,
+			"req_stat": 12,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 21,
+				"mp": 23
+			},
+			"label": "Two-Handed Staff",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "staff_7",
+			"name": "Crystal Staff",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 3,
+			"req_level": 17,
+			"req_stat": 14,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 22,
+				"mp": 26
+			},
+			"label": "Two-Handed Staff",
+			"dice": "d6",
+			"dmg_flat": 5,
+			"dmg_min": 6,
+			"dmg_max": 11
+		},
+		{
+			"id": "staff_8",
+			"name": "Crystal Staff +1",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 23,
+				"mp": 30
+			},
+			"label": "Two-Handed Staff",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "staff_9",
+			"name": "Crystal Staff +2",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 3,
+			"req_level": 22,
+			"req_stat": 18,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 24,
+				"mp": 33
+			},
+			"label": "Two-Handed Staff",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "staff_10",
+			"name": "Crystal Staff +3",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 3,
+			"req_level": 25,
+			"req_stat": 20,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 25,
+				"mp": 37
+			},
+			"label": "Two-Handed Staff",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "staff_11",
+			"name": "Runed Staff",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 4,
+			"req_level": 27,
+			"req_stat": 22,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 26,
+				"mp": 39
+			},
+			"label": "Two-Handed Staff",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "staff_12",
+			"name": "Runed Staff +1",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 27,
+				"mp": 43
+			},
+			"label": "Two-Handed Staff",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "staff_13",
+			"name": "Runed Staff +2",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 4,
+			"req_level": 32,
+			"req_stat": 26,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 28,
+				"mp": 46
+			},
+			"label": "Two-Handed Staff",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "staff_14",
+			"name": "Runed Staff +3",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 4,
+			"req_level": 35,
+			"req_stat": 28,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 29,
+				"mp": 50
+			},
+			"label": "Two-Handed Staff",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "staff_15",
+			"name": "Moonsilver Staff",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 5,
+			"req_level": 37,
+			"req_stat": 30,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 30,
+				"mp": 52
+			},
+			"label": "Two-Handed Staff",
+			"dice": "2d6",
+			"dmg_flat": 7,
+			"dmg_min": 9,
+			"dmg_max": 19
+		},
+		{
+			"id": "staff_16",
+			"name": "Moonsilver Staff +1",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 5,
+			"req_level": 40,
+			"req_stat": 32,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 31,
+				"mp": 56
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "staff_17",
+			"name": "Moonsilver Staff +2",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 5,
+			"req_level": 42,
+			"req_stat": 34,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 32,
+				"mp": 59
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "staff_18",
+			"name": "Moonsilver Staff +3",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 34,
+				"mp": 63
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "staff_19",
+			"name": "Moonsilver Staff +4",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 5,
+			"req_level": 47,
+			"req_stat": 38,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 34,
+				"mp": 66
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "staff_20",
+			"name": "Starlit Staff",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 6,
+			"req_level": 50,
+			"req_stat": 40,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 36,
+				"mp": 69
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "staff_21",
+			"name": "Starlit Staff +1",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 6,
+			"req_level": 52,
+			"req_stat": 42,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 36,
+				"mp": 72
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "staff_22",
+			"name": "Starlit Staff +2",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 6,
+			"req_level": 55,
+			"req_stat": 44,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 38,
+				"mp": 76
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "staff_23",
+			"name": "Starlit Staff +3",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 6,
+			"req_level": 57,
+			"req_stat": 46,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 39,
+				"mp": 79
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "staff_24",
+			"name": "Starlit Staff +4",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 40,
+				"mp": 83
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "staff_25",
+			"name": "Archon Staff",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 7,
+			"req_level": 62,
+			"req_stat": 50,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 41,
+				"mp": 85
+			},
+			"label": "Two-Handed Staff",
+			"dice": "3d6",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 28
+		},
+		{
+			"id": "staff_26",
+			"name": "Archon Staff +1",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 7,
+			"req_level": 65,
+			"req_stat": 52,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 42,
+				"mp": 89
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "staff_27",
+			"name": "Archon Staff +2",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 7,
+			"req_level": 67,
+			"req_stat": 54,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 43,
+				"mp": 92
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "staff_28",
+			"name": "Archon Staff +3",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 7,
+			"req_level": 70,
+			"req_stat": 56,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 44,
+				"mp": 96
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "staff_29",
+			"name": "Archon Staff +4",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 7,
+			"req_level": 72,
+			"req_stat": 58,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 45,
+				"mp": 98
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "staff_30",
+			"name": "Archon Staff +5",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 46,
+				"mp": 102
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "staff_31",
+			"name": "Celestial Staff",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 77,
+			"req_stat": 62,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 47,
+				"mp": 105
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_32",
+			"name": "Celestial Staff +1",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 79,
+			"req_stat": 63,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 48,
+				"mp": 108
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_33",
+			"name": "Celestial Staff +2",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 80,
+			"req_stat": 64,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 48,
+				"mp": 109
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_34",
+			"name": "Celestial Staff +3",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 81,
+			"req_stat": 65,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 49,
+				"mp": 110
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_35",
+			"name": "Celestial Staff +4",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 82,
+			"req_stat": 66,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 49,
+				"mp": 112
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_36",
+			"name": "Celestial Staff +5",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 83,
+			"req_stat": 66,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 50,
+				"mp": 113
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_37",
+			"name": "Celestial Staff +6",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 84,
+			"req_stat": 67,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 50,
+				"mp": 114
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_38",
+			"name": "Celestial Staff +7",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 85,
+			"req_stat": 68,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 50,
+				"mp": 116
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_39",
+			"name": "Celestial Staff +8",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 86,
+			"req_stat": 69,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 51,
+				"mp": 117
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_40",
+			"name": "Celestial Staff +9",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 87,
+			"req_stat": 70,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 51,
+				"mp": 118
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "staff_41",
+			"name": "Celestial Staff +10",
+			"cat": "weapon",
+			"kind": "staff",
+			"style": "int",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": true,
+			"drop_weight": 5.0,
+			"imp": {
+				"spell_dmg": 52,
+				"mp": 122
+			},
+			"label": "Two-Handed Staff",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_1",
+			"name": "Leather Knuckles",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 3
+			},
+			"label": "Fist Weapon",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "fist_2",
+			"name": "Leather Knuckles +1",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 5,
+			"req_stat": 4,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 3
+			},
+			"label": "Fist Weapon",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "fist_3",
+			"name": "Leather Knuckles +2",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 8,
+			"req_stat": 6,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 3
+			},
+			"label": "Fist Weapon",
+			"dice": "d6",
+			"dmg_flat": 2,
+			"dmg_min": 3,
+			"dmg_max": 8
+		},
+		{
+			"id": "fist_4",
+			"name": "Iron Knuckles",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 11,
+			"req_stat": 9,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 3
+			},
+			"label": "Fist Weapon",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "fist_5",
+			"name": "Iron Knuckles +1",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 13,
+			"req_stat": 10,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 3
+			},
+			"label": "Fist Weapon",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "fist_6",
+			"name": "Iron Knuckles +2",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 16,
+			"req_stat": 13,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "d6",
+			"dmg_flat": 3,
+			"dmg_min": 4,
+			"dmg_max": 9
+		},
+		{
+			"id": "fist_7",
+			"name": "Steel Knuckles",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 18,
+			"req_stat": 14,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "d6",
+			"dmg_flat": 5,
+			"dmg_min": 6,
+			"dmg_max": 11
+		},
+		{
+			"id": "fist_8",
+			"name": "Steel Knuckles +1",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 21,
+			"req_stat": 17,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "fist_9",
+			"name": "Steel Knuckles +2",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 23,
+			"req_stat": 18,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "fist_10",
+			"name": "Steel Knuckles +3",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 26,
+			"req_stat": 21,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "2d6",
+			"dmg_flat": 5,
+			"dmg_min": 7,
+			"dmg_max": 17
+		},
+		{
+			"id": "fist_11",
+			"name": "Silver Knuckles",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 28,
+			"req_stat": 22,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "fist_12",
+			"name": "Silver Knuckles +1",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 31,
+			"req_stat": 25,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "fist_13",
+			"name": "Silver Knuckles +2",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 33,
+			"req_stat": 26,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "fist_14",
+			"name": "Silver Knuckles +3",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 36,
+			"req_stat": 29,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "2d6",
+			"dmg_flat": 6,
+			"dmg_min": 8,
+			"dmg_max": 18
+		},
+		{
+			"id": "fist_15",
+			"name": "Mithril Knuckles",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 38,
+			"req_stat": 30,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "2d6",
+			"dmg_flat": 7,
+			"dmg_min": 9,
+			"dmg_max": 19
+		},
+		{
+			"id": "fist_16",
+			"name": "Mithril Knuckles +1",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 41,
+			"req_stat": 33,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "fist_17",
+			"name": "Mithril Knuckles +2",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 43,
+			"req_stat": 34,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 4
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "fist_18",
+			"name": "Mithril Knuckles +3",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 46,
+			"req_stat": 37,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "fist_19",
+			"name": "Mithril Knuckles +4",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 48,
+			"req_stat": 38,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 7,
+			"dmg_min": 10,
+			"dmg_max": 25
+		},
+		{
+			"id": "fist_20",
+			"name": "Adamant Knuckles",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 51,
+			"req_stat": 41,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "fist_21",
+			"name": "Adamant Knuckles +1",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 53,
+			"req_stat": 42,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "fist_22",
+			"name": "Adamant Knuckles +2",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 56,
+			"req_stat": 45,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "fist_23",
+			"name": "Adamant Knuckles +3",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 58,
+			"req_stat": 46,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "fist_24",
+			"name": "Adamant Knuckles +4",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 61,
+			"req_stat": 49,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 9,
+			"dmg_min": 12,
+			"dmg_max": 27
+		},
+		{
+			"id": "fist_25",
+			"name": "Runic Knuckles",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 63,
+			"req_stat": 50,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "3d6",
+			"dmg_flat": 10,
+			"dmg_min": 13,
+			"dmg_max": 28
+		},
+		{
+			"id": "fist_26",
+			"name": "Runic Knuckles +1",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 66,
+			"req_stat": 53,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "fist_27",
+			"name": "Runic Knuckles +2",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 68,
+			"req_stat": 54,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "fist_28",
+			"name": "Runic Knuckles +3",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 71,
+			"req_stat": 57,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "fist_29",
+			"name": "Runic Knuckles +4",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 73,
+			"req_stat": 58,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 5
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "fist_30",
+			"name": "Runic Knuckles +5",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 76,
+			"req_stat": 61,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 10,
+			"dmg_min": 14,
+			"dmg_max": 34
+		},
+		{
+			"id": "fist_31",
+			"name": "Celestial Knuckles",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 78,
+			"req_stat": 62,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_32",
+			"name": "Celestial Knuckles +1",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 80,
+			"req_stat": 64,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_33",
+			"name": "Celestial Knuckles +2",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 81,
+			"req_stat": 65,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_34",
+			"name": "Celestial Knuckles +3",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 83,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_35",
+			"name": "Celestial Knuckles +4",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 82,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_36",
+			"name": "Celestial Knuckles +5",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 83,
+			"req_stat": 66,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_37",
+			"name": "Celestial Knuckles +6",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 84,
+			"req_stat": 67,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_38",
+			"name": "Celestial Knuckles +7",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 85,
+			"req_stat": 68,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_39",
+			"name": "Celestial Knuckles +8",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 86,
+			"req_stat": 69,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_40",
+			"name": "Celestial Knuckles +9",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 87,
+			"req_stat": 70,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "fist_41",
+			"name": "Celestial Knuckles +10",
+			"cat": "weapon",
+			"kind": "fist",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"evasion": 6
+			},
+			"label": "Fist Weapon",
+			"dice": "4d6",
+			"dmg_flat": 11,
+			"dmg_min": 15,
+			"dmg_max": 35
+		},
+		{
+			"id": "body_str_0",
+			"name": "Ringmail",
+			"cat": "body",
+			"kind": "body",
+			"style": "str",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 10
+			},
+			"label": ""
+		},
+		{
+			"id": "body_str_1",
+			"name": "Chainmail",
+			"cat": "body",
+			"kind": "body",
+			"style": "str",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 47
+			},
+			"label": ""
+		},
+		{
+			"id": "body_str_2",
+			"name": "Scale Mail",
+			"cat": "body",
+			"kind": "body",
+			"style": "str",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 90
+			},
+			"label": ""
+		},
+		{
+			"id": "body_str_3",
+			"name": "Plate Armour",
+			"cat": "body",
+			"kind": "body",
+			"style": "str",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 134
+			},
+			"label": ""
+		},
+		{
+			"id": "body_str_4",
+			"name": "Gothic Plate",
+			"cat": "body",
+			"kind": "body",
+			"style": "str",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 202
+			},
+			"label": ""
+		},
+		{
+			"id": "body_str_5",
+			"name": "Dragonplate",
+			"cat": "body",
+			"kind": "body",
+			"style": "str",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 273
+			},
+			"label": ""
+		},
+		{
+			"id": "body_str_6",
+			"name": "Runeplate",
+			"cat": "body",
+			"kind": "body",
+			"style": "str",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 347
+			},
+			"label": ""
+		},
+		{
+			"id": "body_str_7",
+			"name": "Celestial Plate",
+			"cat": "body",
+			"kind": "body",
+			"style": "str",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 424
+			},
+			"label": ""
+		},
+		{
+			"id": "body_dex_0",
+			"name": "Padded Vest",
+			"cat": "body",
+			"kind": "body",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 4,
+				"evasion": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "body_dex_1",
+			"name": "Leather Jerkin",
+			"cat": "body",
+			"kind": "body",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 17,
+				"evasion": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "body_dex_2",
+			"name": "Studded Leather",
+			"cat": "body",
+			"kind": "body",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 31,
+				"evasion": 8
+			},
+			"label": ""
+		},
+		{
+			"id": "body_dex_3",
+			"name": "Shadow Garb",
+			"cat": "body",
+			"kind": "body",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 46,
+				"evasion": 10
+			},
+			"label": ""
+		},
+		{
+			"id": "body_dex_4",
+			"name": "Wyrmhide Coat",
+			"cat": "body",
+			"kind": "body",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 69,
+				"evasion": 12
+			},
+			"label": ""
+		},
+		{
+			"id": "body_dex_5",
+			"name": "Nightweave Coat",
+			"cat": "body",
+			"kind": "body",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 93,
+				"evasion": 14
+			},
+			"label": ""
+		},
+		{
+			"id": "body_dex_6",
+			"name": "Phantom Garb",
+			"cat": "body",
+			"kind": "body",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 118,
+				"evasion": 16
+			},
+			"label": ""
+		},
+		{
+			"id": "body_dex_7",
+			"name": "Celestial Leathers",
+			"cat": "body",
+			"kind": "body",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 144,
+				"evasion": 18
+			},
+			"label": ""
+		},
+		{
+			"id": "body_int_0",
+			"name": "Linen Robe",
+			"cat": "body",
+			"kind": "body",
+			"style": "int",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 2,
+				"mp": 6,
+				"magic_res": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "body_int_1",
+			"name": "Silk Robe",
+			"cat": "body",
+			"kind": "body",
+			"style": "int",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 9,
+				"mp": 23,
+				"magic_res": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "body_int_2",
+			"name": "Mage's Vestment",
+			"cat": "body",
+			"kind": "body",
+			"style": "int",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 18,
+				"mp": 42,
+				"magic_res": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "body_int_3",
+			"name": "Arcane Raiment",
+			"cat": "body",
+			"kind": "body",
+			"style": "int",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 27,
+				"mp": 61,
+				"magic_res": 9
+			},
+			"label": ""
+		},
+		{
+			"id": "body_int_4",
+			"name": "Archon Robe",
+			"cat": "body",
+			"kind": "body",
+			"style": "int",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 40,
+				"mp": 89,
+				"magic_res": 11
+			},
+			"label": ""
+		},
+		{
+			"id": "body_int_5",
+			"name": "Starweave Robe",
+			"cat": "body",
+			"kind": "body",
+			"style": "int",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 55,
+				"mp": 118,
+				"magic_res": 13
+			},
+			"label": ""
+		},
+		{
+			"id": "body_int_6",
+			"name": "Astral Raiment",
+			"cat": "body",
+			"kind": "body",
+			"style": "int",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 69,
+				"mp": 146,
+				"magic_res": 15
+			},
+			"label": ""
+		},
+		{
+			"id": "body_int_7",
+			"name": "Celestial Robe",
+			"cat": "body",
+			"kind": "body",
+			"style": "int",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 85,
+				"mp": 175,
+				"magic_res": 16
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_str_0",
+			"name": "Iron Cap",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "str",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_str_1",
+			"name": "Nasal Helm",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "str",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 22
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_str_2",
+			"name": "Great Helm",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "str",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 41
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_str_3",
+			"name": "Winged Helm",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "str",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 61
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_str_4",
+			"name": "Warlord Helm",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "str",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 91
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_str_5",
+			"name": "Dragon Helm",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "str",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 123
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_str_6",
+			"name": "Rune Helm",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "str",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 157
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_str_7",
+			"name": "Celestial Helm",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "str",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 191
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_dex_0",
+			"name": "Leather Hood",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 2,
+				"evasion": 2
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_dex_1",
+			"name": "Ranger's Cap",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 8,
+				"evasion": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_dex_2",
+			"name": "Studded Cowl",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 14,
+				"evasion": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_dex_3",
+			"name": "Shadow Mask",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 21,
+				"evasion": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_dex_4",
+			"name": "Wyrmscale Hood",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 31,
+				"evasion": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_dex_5",
+			"name": "Nightweave Hood",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 41,
+				"evasion": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_dex_6",
+			"name": "Phantom Mask",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 53,
+				"evasion": 8
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_dex_7",
+			"name": "Celestial Hood",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 64,
+				"evasion": 10
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_int_0",
+			"name": "Cloth Hood",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "int",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 1,
+				"mp": 3,
+				"magic_res": 2
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_int_1",
+			"name": "Circlet",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "int",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 4,
+				"mp": 12,
+				"magic_res": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_int_2",
+			"name": "Silver Diadem",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "int",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 8,
+				"mp": 21,
+				"magic_res": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_int_3",
+			"name": "Sage's Crown",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "int",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 12,
+				"mp": 30,
+				"magic_res": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_int_4",
+			"name": "Archon Crown",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "int",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 18,
+				"mp": 45,
+				"magic_res": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_int_5",
+			"name": "Starweave Circlet",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "int",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 24,
+				"mp": 59,
+				"magic_res": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_int_6",
+			"name": "Astral Crown",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "int",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 30,
+				"mp": 73,
+				"magic_res": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "helm_int_7",
+			"name": "Celestial Crown",
+			"cat": "helm",
+			"kind": "helm",
+			"style": "int",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 37,
+				"mp": 87,
+				"magic_res": 8
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_str_0",
+			"name": "Iron Gauntlets",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "str",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_str_1",
+			"name": "Chain Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "str",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 22
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_str_2",
+			"name": "Scale Gauntlets",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "str",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 41
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_str_3",
+			"name": "Plate Gauntlets",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "str",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 61
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_str_4",
+			"name": "Titan Gauntlets",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "str",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 91
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_str_5",
+			"name": "Dragon Gauntlets",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "str",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 123
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_str_6",
+			"name": "Rune Gauntlets",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "str",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 157
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_str_7",
+			"name": "Celestial Gauntlets",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "str",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 191
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_dex_0",
+			"name": "Leather Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 2,
+				"evasion": 2
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_dex_1",
+			"name": "Archer's Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 8,
+				"evasion": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_dex_2",
+			"name": "Studded Grips",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 14,
+				"evasion": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_dex_3",
+			"name": "Shadow Wraps",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 21,
+				"evasion": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_dex_4",
+			"name": "Wyrmhide Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 31,
+				"evasion": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_dex_5",
+			"name": "Nightweave Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 41,
+				"evasion": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_dex_6",
+			"name": "Phantom Grips",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 53,
+				"evasion": 8
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_dex_7",
+			"name": "Celestial Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 64,
+				"evasion": 10
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_int_0",
+			"name": "Silk Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "int",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 1,
+				"mp": 3,
+				"magic_res": 2
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_int_1",
+			"name": "Conjurer's Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "int",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 4,
+				"mp": 12,
+				"magic_res": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_int_2",
+			"name": "Runed Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "int",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 8,
+				"mp": 21,
+				"magic_res": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_int_3",
+			"name": "Arcane Wraps",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "int",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 12,
+				"mp": 30,
+				"magic_res": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_int_4",
+			"name": "Archon Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "int",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 18,
+				"mp": 45,
+				"magic_res": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_int_5",
+			"name": "Starweave Gloves",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "int",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 24,
+				"mp": 59,
+				"magic_res": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_int_6",
+			"name": "Astral Wraps",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "int",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 30,
+				"mp": 73,
+				"magic_res": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "gloves_int_7",
+			"name": "Celestial Handwraps",
+			"cat": "gloves",
+			"kind": "gloves",
+			"style": "int",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 37,
+				"mp": 87,
+				"magic_res": 8
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_str_0",
+			"name": "Iron Greaves",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "str",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_str_1",
+			"name": "Chain Boots",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "str",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 22
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_str_2",
+			"name": "Scale Greaves",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "str",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 41
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_str_3",
+			"name": "Plate Sabatons",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "str",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 61
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_str_4",
+			"name": "Titan Greaves",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "str",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 91
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_str_5",
+			"name": "Dragon Greaves",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "str",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 123
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_str_6",
+			"name": "Rune Sabatons",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "str",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 157
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_str_7",
+			"name": "Celestial Greaves",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "str",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 191
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_dex_0",
+			"name": "Soft Boots",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 2,
+				"evasion": 2
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_dex_1",
+			"name": "Leather Boots",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 8,
+				"evasion": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_dex_2",
+			"name": "Studded Boots",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 14,
+				"evasion": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_dex_3",
+			"name": "Shadow Treads",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 21,
+				"evasion": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_dex_4",
+			"name": "Wyrmhide Boots",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 31,
+				"evasion": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_dex_5",
+			"name": "Nightweave Boots",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 41,
+				"evasion": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_dex_6",
+			"name": "Phantom Treads",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 53,
+				"evasion": 8
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_dex_7",
+			"name": "Celestial Boots",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 64,
+				"evasion": 10
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_int_0",
+			"name": "Slippers",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "int",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 1,
+				"mp": 3,
+				"magic_res": 2
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_int_1",
+			"name": "Silk Shoes",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "int",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 4,
+				"mp": 12,
+				"magic_res": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_int_2",
+			"name": "Runed Slippers",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "int",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 8,
+				"mp": 21,
+				"magic_res": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_int_3",
+			"name": "Arcane Treads",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "int",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 12,
+				"mp": 30,
+				"magic_res": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_int_4",
+			"name": "Archon Slippers",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "int",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 18,
+				"mp": 45,
+				"magic_res": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_int_5",
+			"name": "Starweave Slippers",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "int",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 24,
+				"mp": 59,
+				"magic_res": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_int_6",
+			"name": "Astral Treads",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "int",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 30,
+				"mp": 73,
+				"magic_res": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "boots_int_7",
+			"name": "Celestial Slippers",
+			"cat": "boots",
+			"kind": "boots",
+			"style": "int",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 4.0,
+			"imp": {
+				"def": 37,
+				"mp": 87,
+				"magic_res": 8
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_str_0",
+			"name": "Wooden Shield",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "str",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_str_1",
+			"name": "Kite Shield",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "str",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 33
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_str_2",
+			"name": "Tower Shield",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "str",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 63
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_str_3",
+			"name": "Knight's Bulwark",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "str",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 94
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_str_4",
+			"name": "Titan Aegis",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "str",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 142
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_str_5",
+			"name": "Dragon Aegis",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "str",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 191
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_str_6",
+			"name": "Rune Bulwark",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "str",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 243
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_str_7",
+			"name": "Celestial Aegis",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "str",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 297
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_dex_0",
+			"name": "Buckler",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "dex",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 2,
+				"evasion": 2
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_dex_1",
+			"name": "Spiked Buckler",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "dex",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 9,
+				"evasion": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_dex_2",
+			"name": "Duelist's Targe",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "dex",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 16,
+				"evasion": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_dex_3",
+			"name": "Shadow Targe",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "dex",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 24,
+				"evasion": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_dex_4",
+			"name": "Wyrmscale Targe",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "dex",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 36,
+				"evasion": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_dex_5",
+			"name": "Nightweave Targe",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "dex",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 48,
+				"evasion": 8
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_dex_6",
+			"name": "Phantom Targe",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "dex",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 61,
+				"evasion": 10
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_dex_7",
+			"name": "Celestial Targe",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "dex",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 74,
+				"evasion": 11
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_int_0",
+			"name": "Spirit Shield",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "int",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 1,
+				"mp": 3,
+				"magic_res": 2
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_int_1",
+			"name": "Runed Shield",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "int",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 8,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 5,
+				"mp": 12,
+				"magic_res": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_int_2",
+			"name": "Warded Shield",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "int",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 16,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 9,
+				"mp": 21,
+				"magic_res": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_int_3",
+			"name": "Arcane Ward",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "int",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 24,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 13,
+				"mp": 30,
+				"magic_res": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_int_4",
+			"name": "Archon Ward",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "int",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 36,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 20,
+				"mp": 45,
+				"magic_res": 9
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_int_5",
+			"name": "Starweave Ward",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "int",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 48,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 27,
+				"mp": 59,
+				"magic_res": 11
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_int_6",
+			"name": "Astral Ward",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "int",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 60,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 35,
+				"mp": 73,
+				"magic_res": 12
+			},
+			"label": ""
+		},
+		{
+			"id": "shield_int_7",
+			"name": "Celestial Ward",
+			"cat": "shield",
+			"kind": "shield",
+			"style": "int",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 72,
+			"two_handed": false,
+			"drop_weight": 2.67,
+			"imp": {
+				"def": 42,
+				"mp": 87,
+				"magic_res": 14
+			},
+			"label": ""
+		},
+		{
+			"id": "ring_0",
+			"name": "Copper Ring",
+			"cat": "ring",
+			"kind": "ring",
+			"style": "none",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 9.33,
+			"imp": {
+				"all_res": 4
+			},
+			"label": ""
+		},
+		{
+			"id": "ring_1",
+			"name": "Silver Ring",
+			"cat": "ring",
+			"kind": "ring",
+			"style": "none",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 9.33,
+			"imp": {
+				"all_res": 6
+			},
+			"label": ""
+		},
+		{
+			"id": "ring_2",
+			"name": "Gold Ring",
+			"cat": "ring",
+			"kind": "ring",
+			"style": "none",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 9.33,
+			"imp": {
+				"all_res": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "ring_3",
+			"name": "Platinum Ring",
+			"cat": "ring",
+			"kind": "ring",
+			"style": "none",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 9.33,
+			"imp": {
+				"all_res": 9
+			},
+			"label": ""
+		},
+		{
+			"id": "ring_4",
+			"name": "Starmetal Ring",
+			"cat": "ring",
+			"kind": "ring",
+			"style": "none",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 9.33,
+			"imp": {
+				"all_res": 11
+			},
+			"label": ""
+		},
+		{
+			"id": "ring_5",
+			"name": "Mithril Ring",
+			"cat": "ring",
+			"kind": "ring",
+			"style": "none",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 9.33,
+			"imp": {
+				"all_res": 13
+			},
+			"label": ""
+		},
+		{
+			"id": "ring_6",
+			"name": "Runic Ring",
+			"cat": "ring",
+			"kind": "ring",
+			"style": "none",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 9.33,
+			"imp": {
+				"all_res": 14
+			},
+			"label": ""
+		},
+		{
+			"id": "ring_7",
+			"name": "Celestial Ring",
+			"cat": "ring",
+			"kind": "ring",
+			"style": "none",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 9.33,
+			"imp": {
+				"all_res": 16
+			},
+			"label": ""
+		},
+		{
+			"id": "amulet_0",
+			"name": "Bone Amulet",
+			"cat": "amulet",
+			"kind": "amulet",
+			"style": "none",
+			"tier": 1,
+			"req_level": 1,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.67,
+			"imp": {
+				"all_attr": 1
+			},
+			"label": ""
+		},
+		{
+			"id": "amulet_1",
+			"name": "Jade Amulet",
+			"cat": "amulet",
+			"kind": "amulet",
+			"style": "none",
+			"tier": 2,
+			"req_level": 10,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.67,
+			"imp": {
+				"all_attr": 3
+			},
+			"label": ""
+		},
+		{
+			"id": "amulet_2",
+			"name": "Amber Amulet",
+			"cat": "amulet",
+			"kind": "amulet",
+			"style": "none",
+			"tier": 3,
+			"req_level": 20,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.67,
+			"imp": {
+				"all_attr": 5
+			},
+			"label": ""
+		},
+		{
+			"id": "amulet_3",
+			"name": "Onyx Amulet",
+			"cat": "amulet",
+			"kind": "amulet",
+			"style": "none",
+			"tier": 4,
+			"req_level": 30,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.67,
+			"imp": {
+				"all_attr": 7
+			},
+			"label": ""
+		},
+		{
+			"id": "amulet_4",
+			"name": "Star Amulet",
+			"cat": "amulet",
+			"kind": "amulet",
+			"style": "none",
+			"tier": 5,
+			"req_level": 45,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.67,
+			"imp": {
+				"all_attr": 10
+			},
+			"label": ""
+		},
+		{
+			"id": "amulet_5",
+			"name": "Ruby Amulet",
+			"cat": "amulet",
+			"kind": "amulet",
+			"style": "none",
+			"tier": 6,
+			"req_level": 60,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.67,
+			"imp": {
+				"all_attr": 13
+			},
+			"label": ""
+		},
+		{
+			"id": "amulet_6",
+			"name": "Runic Amulet",
+			"cat": "amulet",
+			"kind": "amulet",
+			"style": "none",
+			"tier": 7,
+			"req_level": 75,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.67,
+			"imp": {
+				"all_attr": 17
+			},
+			"label": ""
+		},
+		{
+			"id": "amulet_7",
+			"name": "Celestial Amulet",
+			"cat": "amulet",
+			"kind": "amulet",
+			"style": "none",
+			"tier": 8,
+			"req_level": 90,
+			"req_stat": 0,
+			"two_handed": false,
+			"drop_weight": 4.67,
+			"imp": {
+				"all_attr": 20
+			},
+			"label": ""
+		}
+	],
+	"affixes": [
+		{
+			"id": "add_phys",
+			"type": "prefix",
+			"stat": "add_phys",
+			"range": true,
+			"weight": 10.0,
+			"only": [
+				"weapon"
+			],
+			"mult": {
+				"wand": 0.3,
+				"staff": 0.5
+			},
+			"tiers": [
+				{
+					"name": "Sharp",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"name": "Keen",
+					"min_ilvl": 12,
+					"min": 2,
+					"max": 4
+				},
+				{
+					"name": "Jagged",
+					"min_ilvl": 25,
+					"min": 3,
+					"max": 6
+				},
+				{
+					"name": "Cruel",
+					"min_ilvl": 40,
+					"min": 5,
+					"max": 8
+				},
+				{
+					"name": "Merciless",
+					"min_ilvl": 55,
+					"min": 7,
+					"max": 12
+				},
+				{
+					"name": "Greater Merciless",
+					"min_ilvl": 70,
+					"min": 8,
+					"max": 14
+				},
+				{
+					"name": "Elder Merciless",
+					"min_ilvl": 82,
+					"min": 9,
+					"max": 16
+				},
+				{
+					"name": "Eternal Merciless",
+					"min_ilvl": 95,
+					"min": 10,
+					"max": 17
+				}
+			]
+		},
+		{
+			"id": "add_fire",
+			"type": "prefix",
+			"stat": "add_fire",
+			"range": true,
+			"weight": 6.0,
+			"only": [],
+			"mult": {
+				"armour": 0.03,
+				"jewel": 0.15,
+				"wand": 1.5,
+				"staff": 1.5
+			},
+			"tiers": [
+				{
+					"name": "Heated",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 3
+				},
+				{
+					"name": "Smouldering",
+					"min_ilvl": 12,
+					"min": 2,
+					"max": 5
+				},
+				{
+					"name": "Flaming",
+					"min_ilvl": 25,
+					"min": 3,
+					"max": 7
+				},
+				{
+					"name": "Blazing",
+					"min_ilvl": 40,
+					"min": 5,
+					"max": 10
+				},
+				{
+					"name": "Infernal",
+					"min_ilvl": 55,
+					"min": 8,
+					"max": 14
+				},
+				{
+					"name": "Greater Infernal",
+					"min_ilvl": 70,
+					"min": 9,
+					"max": 16
+				},
+				{
+					"name": "Elder Infernal",
+					"min_ilvl": 82,
+					"min": 10,
+					"max": 18
+				},
+				{
+					"name": "Eternal Infernal",
+					"min_ilvl": 95,
+					"min": 12,
+					"max": 20
+				}
+			]
+		},
+		{
+			"id": "add_ice",
+			"type": "prefix",
+			"stat": "add_ice",
+			"range": true,
+			"weight": 6.0,
+			"only": [],
+			"mult": {
+				"armour": 0.03,
+				"jewel": 0.15,
+				"wand": 1.5,
+				"staff": 1.5
+			},
+			"tiers": [
+				{
+					"name": "Chilled",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 3
+				},
+				{
+					"name": "Icy",
+					"min_ilvl": 12,
+					"min": 2,
+					"max": 5
+				},
+				{
+					"name": "Frozen",
+					"min_ilvl": 25,
+					"min": 3,
+					"max": 7
+				},
+				{
+					"name": "Glacial",
+					"min_ilvl": 40,
+					"min": 5,
+					"max": 10
+				},
+				{
+					"name": "Arctic",
+					"min_ilvl": 55,
+					"min": 8,
+					"max": 14
+				},
+				{
+					"name": "Greater Arctic",
+					"min_ilvl": 70,
+					"min": 9,
+					"max": 16
+				},
+				{
+					"name": "Elder Arctic",
+					"min_ilvl": 82,
+					"min": 10,
+					"max": 18
+				},
+				{
+					"name": "Eternal Arctic",
+					"min_ilvl": 95,
+					"min": 12,
+					"max": 20
+				}
+			]
+		},
+		{
+			"id": "phys_dmg",
+			"type": "prefix",
+			"stat": "phys_dmg",
+			"range": false,
+			"weight": 8.0,
+			"only": [],
+			"mult": {
+				"armour": 0.04,
+				"jewel": 0.4,
+				"wand": 0.2,
+				"staff": 0.3
+			},
+			"tiers": [
+				{
+					"name": "Heavy",
+					"min_ilvl": 1,
+					"min": 6,
+					"max": 10
+				},
+				{
+					"name": "Brutal",
+					"min_ilvl": 12,
+					"min": 11,
+					"max": 16
+				},
+				{
+					"name": "Savage",
+					"min_ilvl": 25,
+					"min": 17,
+					"max": 24
+				},
+				{
+					"name": "Vicious",
+					"min_ilvl": 40,
+					"min": 25,
+					"max": 32
+				},
+				{
+					"name": "Tyrannical",
+					"min_ilvl": 55,
+					"min": 33,
+					"max": 42
+				},
+				{
+					"name": "Greater Tyrannical",
+					"min_ilvl": 70,
+					"min": 38,
+					"max": 48
+				},
+				{
+					"name": "Elder Tyrannical",
+					"min_ilvl": 82,
+					"min": 43,
+					"max": 55
+				},
+				{
+					"name": "Eternal Tyrannical",
+					"min_ilvl": 95,
+					"min": 48,
+					"max": 61
+				}
+			]
+		},
+		{
+			"id": "spell_dmg",
+			"type": "prefix",
+			"stat": "spell_dmg",
+			"range": false,
+			"weight": 3.0,
+			"only": [],
+			"mult": {
+				"int": 3.0,
+				"wand": 3.0,
+				"staff": 3.0,
+				"jewel": 2.0,
+				"str": 0.3,
+				"dex": 0.4,
+				"sword": 0.2,
+				"axe": 0.2,
+				"dagger": 0.3,
+				"bow": 0.2,
+				"fist": 0.3
+			},
+			"tiers": [
+				{
+					"name": "Apprentice's",
+					"min_ilvl": 1,
+					"min": 3,
+					"max": 6
+				},
+				{
+					"name": "Adept's",
+					"min_ilvl": 12,
+					"min": 7,
+					"max": 10
+				},
+				{
+					"name": "Sorcerer's",
+					"min_ilvl": 25,
+					"min": 11,
+					"max": 15
+				},
+				{
+					"name": "Magister's",
+					"min_ilvl": 40,
+					"min": 16,
+					"max": 20
+				},
+				{
+					"name": "Archmage's",
+					"min_ilvl": 55,
+					"min": 21,
+					"max": 26
+				},
+				{
+					"name": "Greater Archmage's",
+					"min_ilvl": 70,
+					"min": 24,
+					"max": 30
+				},
+				{
+					"name": "Elder Archmage's",
+					"min_ilvl": 82,
+					"min": 27,
+					"max": 34
+				},
+				{
+					"name": "Eternal Archmage's",
+					"min_ilvl": 95,
+					"min": 30,
+					"max": 38
+				}
+			]
+		},
+		{
+			"id": "fire_dmg",
+			"type": "prefix",
+			"stat": "fire_dmg",
+			"range": false,
+			"weight": 2.0,
+			"only": [],
+			"mult": {
+				"int": 2.0,
+				"wand": 2.5,
+				"staff": 2.5,
+				"jewel": 1.5,
+				"armour": 0.5
+			},
+			"tiers": [
+				{
+					"name": "Kindled",
+					"min_ilvl": 1,
+					"min": 4,
+					"max": 8
+				},
+				{
+					"name": "Burning",
+					"min_ilvl": 12,
+					"min": 9,
+					"max": 12
+				},
+				{
+					"name": "Scorching",
+					"min_ilvl": 25,
+					"min": 13,
+					"max": 18
+				},
+				{
+					"name": "Searing",
+					"min_ilvl": 40,
+					"min": 19,
+					"max": 24
+				},
+				{
+					"name": "Incinerating",
+					"min_ilvl": 55,
+					"min": 25,
+					"max": 32
+				},
+				{
+					"name": "Greater Incinerating",
+					"min_ilvl": 70,
+					"min": 29,
+					"max": 37
+				},
+				{
+					"name": "Elder Incinerating",
+					"min_ilvl": 82,
+					"min": 32,
+					"max": 42
+				},
+				{
+					"name": "Eternal Incinerating",
+					"min_ilvl": 95,
+					"min": 36,
+					"max": 46
+				}
+			]
+		},
+		{
+			"id": "ice_dmg",
+			"type": "prefix",
+			"stat": "ice_dmg",
+			"range": false,
+			"weight": 2.0,
+			"only": [],
+			"mult": {
+				"int": 2.0,
+				"wand": 2.5,
+				"staff": 2.5,
+				"jewel": 1.5,
+				"armour": 0.5
+			},
+			"tiers": [
+				{
+					"name": "Cold",
+					"min_ilvl": 1,
+					"min": 4,
+					"max": 8
+				},
+				{
+					"name": "Bitter",
+					"min_ilvl": 12,
+					"min": 9,
+					"max": 12
+				},
+				{
+					"name": "Biting",
+					"min_ilvl": 25,
+					"min": 13,
+					"max": 18
+				},
+				{
+					"name": "Freezing",
+					"min_ilvl": 40,
+					"min": 19,
+					"max": 24
+				},
+				{
+					"name": "Hoarfrost",
+					"min_ilvl": 55,
+					"min": 25,
+					"max": 32
+				},
+				{
+					"name": "Greater Hoarfrost",
+					"min_ilvl": 70,
+					"min": 29,
+					"max": 37
+				},
+				{
+					"name": "Elder Hoarfrost",
+					"min_ilvl": 82,
+					"min": 32,
+					"max": 42
+				},
+				{
+					"name": "Eternal Hoarfrost",
+					"min_ilvl": 95,
+					"min": 36,
+					"max": 46
+				}
+			]
+		},
+		{
+			"id": "def",
+			"type": "prefix",
+			"stat": "def",
+			"range": false,
+			"weight": 9.0,
+			"only": [
+				"armour",
+				"jewel"
+			],
+			"mult": {
+				"str": 2.5,
+				"int": 0.4,
+				"jewel": 0.3
+			},
+			"tiers": [
+				{
+					"name": "Sturdy",
+					"min_ilvl": 1,
+					"min": 2,
+					"max": 4
+				},
+				{
+					"name": "Reinforced",
+					"min_ilvl": 12,
+					"min": 5,
+					"max": 8
+				},
+				{
+					"name": "Plated",
+					"min_ilvl": 25,
+					"min": 9,
+					"max": 14
+				},
+				{
+					"name": "Fortified",
+					"min_ilvl": 40,
+					"min": 15,
+					"max": 22
+				},
+				{
+					"name": "Impregnable",
+					"min_ilvl": 55,
+					"min": 23,
+					"max": 32
+				},
+				{
+					"name": "Greater Impregnable",
+					"min_ilvl": 70,
+					"min": 31,
+					"max": 43
+				},
+				{
+					"name": "Elder Impregnable",
+					"min_ilvl": 82,
+					"min": 40,
+					"max": 56
+				},
+				{
+					"name": "Eternal Impregnable",
+					"min_ilvl": 95,
+					"min": 51,
+					"max": 70
+				}
+			]
+		},
+		{
+			"id": "hp",
+			"type": "prefix",
+			"stat": "hp",
+			"range": false,
+			"weight": 9.0,
+			"only": [],
+			"mult": {
+				"str": 1.8,
+				"weapon": 0.3,
+				"jewel": 1.2
+			},
+			"tiers": [
+				{
+					"name": "Healthy",
+					"min_ilvl": 1,
+					"min": 6,
+					"max": 10
+				},
+				{
+					"name": "Hale",
+					"min_ilvl": 12,
+					"min": 11,
+					"max": 20
+				},
+				{
+					"name": "Robust",
+					"min_ilvl": 25,
+					"min": 21,
+					"max": 34
+				},
+				{
+					"name": "Vigorous",
+					"min_ilvl": 40,
+					"min": 35,
+					"max": 52
+				},
+				{
+					"name": "Titan's",
+					"min_ilvl": 55,
+					"min": 53,
+					"max": 75
+				},
+				{
+					"name": "Greater Titan's",
+					"min_ilvl": 70,
+					"min": 72,
+					"max": 101
+				},
+				{
+					"name": "Elder Titan's",
+					"min_ilvl": 82,
+					"min": 93,
+					"max": 131
+				},
+				{
+					"name": "Eternal Titan's",
+					"min_ilvl": 95,
+					"min": 117,
+					"max": 165
+				}
+			]
+		},
+		{
+			"id": "mp",
+			"type": "prefix",
+			"stat": "mp",
+			"range": false,
+			"weight": 6.0,
+			"only": [],
+			"mult": {
+				"int": 2.5,
+				"wand": 2.0,
+				"staff": 2.0,
+				"str": 0.4
+			},
+			"tiers": [
+				{
+					"name": "Lapis",
+					"min_ilvl": 1,
+					"min": 3,
+					"max": 5
+				},
+				{
+					"name": "Azure",
+					"min_ilvl": 12,
+					"min": 6,
+					"max": 10
+				},
+				{
+					"name": "Sapphire",
+					"min_ilvl": 25,
+					"min": 11,
+					"max": 16
+				},
+				{
+					"name": "Cobalt",
+					"min_ilvl": 40,
+					"min": 17,
+					"max": 24
+				},
+				{
+					"name": "Celestial",
+					"min_ilvl": 55,
+					"min": 25,
+					"max": 34
+				},
+				{
+					"name": "Greater Celestial",
+					"min_ilvl": 70,
+					"min": 34,
+					"max": 46
+				},
+				{
+					"name": "Elder Celestial",
+					"min_ilvl": 82,
+					"min": 44,
+					"max": 60
+				},
+				{
+					"name": "Eternal Celestial",
+					"min_ilvl": 95,
+					"min": 55,
+					"max": 75
+				}
+			]
+		},
+		{
+			"id": "accuracy",
+			"type": "prefix",
+			"stat": "accuracy",
+			"range": false,
+			"weight": 5.0,
+			"only": [
+				"weapon"
+			],
+			"mult": {
+				"wand": 0.2,
+				"staff": 0.3
+			},
+			"tiers": [
+				{
+					"name": "Steady",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 3
+				},
+				{
+					"name": "Accurate",
+					"min_ilvl": 12,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"name": "Precise",
+					"min_ilvl": 25,
+					"min": 6,
+					"max": 8
+				},
+				{
+					"name": "Unerring",
+					"min_ilvl": 40,
+					"min": 9,
+					"max": 11
+				},
+				{
+					"name": "Infallible",
+					"min_ilvl": 55,
+					"min": 12,
+					"max": 15
+				},
+				{
+					"name": "Greater Infallible",
+					"min_ilvl": 70,
+					"min": 14,
+					"max": 17
+				},
+				{
+					"name": "Elder Infallible",
+					"min_ilvl": 82,
+					"min": 16,
+					"max": 20
+				},
+				{
+					"name": "Eternal Infallible",
+					"min_ilvl": 95,
+					"min": 17,
+					"max": 22
+				}
+			]
+		},
+		{
+			"id": "str",
+			"type": "suffix",
+			"stat": "str",
+			"range": false,
+			"weight": 7.0,
+			"only": [],
+			"mult": {
+				"str": 2.0,
+				"int": 0.5
+			},
+			"tiers": [
+				{
+					"name": "of the Ox",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"name": "of the Bear",
+					"min_ilvl": 12,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"name": "of the Giant",
+					"min_ilvl": 25,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"name": "of the Titan",
+					"min_ilvl": 40,
+					"min": 7,
+					"max": 9
+				},
+				{
+					"name": "of the Colossus",
+					"min_ilvl": 55,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"name": "of the Greater Colossus",
+					"min_ilvl": 70,
+					"min": 14,
+					"max": 16
+				},
+				{
+					"name": "of the Elder Colossus",
+					"min_ilvl": 82,
+					"min": 18,
+					"max": 21
+				},
+				{
+					"name": "of the Eternal Colossus",
+					"min_ilvl": 95,
+					"min": 22,
+					"max": 26
+				}
+			]
+		},
+		{
+			"id": "dex",
+			"type": "suffix",
+			"stat": "dex",
+			"range": false,
+			"weight": 7.0,
+			"only": [],
+			"mult": {
+				"dex": 2.0,
+				"str": 0.6,
+				"int": 0.6
+			},
+			"tiers": [
+				{
+					"name": "of the Fox",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"name": "of the Lynx",
+					"min_ilvl": 12,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"name": "of the Falcon",
+					"min_ilvl": 25,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"name": "of the Panther",
+					"min_ilvl": 40,
+					"min": 7,
+					"max": 9
+				},
+				{
+					"name": "of the Wind",
+					"min_ilvl": 55,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"name": "of the Greater Wind",
+					"min_ilvl": 70,
+					"min": 14,
+					"max": 16
+				},
+				{
+					"name": "of the Elder Wind",
+					"min_ilvl": 82,
+					"min": 18,
+					"max": 21
+				},
+				{
+					"name": "of the Eternal Wind",
+					"min_ilvl": 95,
+					"min": 22,
+					"max": 26
+				}
+			]
+		},
+		{
+			"id": "int",
+			"type": "suffix",
+			"stat": "int",
+			"range": false,
+			"weight": 7.0,
+			"only": [],
+			"mult": {
+				"int": 2.0,
+				"str": 0.5
+			},
+			"tiers": [
+				{
+					"name": "of the Owl",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"name": "of the Sage",
+					"min_ilvl": 12,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"name": "of the Scholar",
+					"min_ilvl": 25,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"name": "of the Magus",
+					"min_ilvl": 40,
+					"min": 7,
+					"max": 9
+				},
+				{
+					"name": "of the Archon",
+					"min_ilvl": 55,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"name": "of the Greater Archon",
+					"min_ilvl": 70,
+					"min": 14,
+					"max": 16
+				},
+				{
+					"name": "of the Elder Archon",
+					"min_ilvl": 82,
+					"min": 18,
+					"max": 21
+				},
+				{
+					"name": "of the Eternal Archon",
+					"min_ilvl": 95,
+					"min": 22,
+					"max": 26
+				}
+			]
+		},
+		{
+			"id": "con",
+			"type": "suffix",
+			"stat": "con",
+			"range": false,
+			"weight": 7.0,
+			"only": [],
+			"mult": {
+				"str": 1.6
+			},
+			"tiers": [
+				{
+					"name": "of the Boar",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"name": "of the Bull",
+					"min_ilvl": 12,
+					"min": 3,
+					"max": 4
+				},
+				{
+					"name": "of the Mountain",
+					"min_ilvl": 25,
+					"min": 5,
+					"max": 6
+				},
+				{
+					"name": "of the Bulwark",
+					"min_ilvl": 40,
+					"min": 7,
+					"max": 9
+				},
+				{
+					"name": "of the Ages",
+					"min_ilvl": 55,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"name": "of the Greater Ages",
+					"min_ilvl": 70,
+					"min": 14,
+					"max": 16
+				},
+				{
+					"name": "of the Elder Ages",
+					"min_ilvl": 82,
+					"min": 18,
+					"max": 21
+				},
+				{
+					"name": "of the Eternal Ages",
+					"min_ilvl": 95,
+					"min": 22,
+					"max": 26
+				}
+			]
+		},
+		{
+			"id": "fire_res",
+			"type": "suffix",
+			"stat": "fire_res",
+			"range": false,
+			"weight": 7.0,
+			"only": [],
+			"mult": {
+				"weapon": 0.3
+			},
+			"tiers": [
+				{
+					"name": "of Embers",
+					"min_ilvl": 1,
+					"min": 3,
+					"max": 6
+				},
+				{
+					"name": "of the Hearth",
+					"min_ilvl": 12,
+					"min": 7,
+					"max": 10
+				},
+				{
+					"name": "of the Furnace",
+					"min_ilvl": 25,
+					"min": 11,
+					"max": 15
+				},
+				{
+					"name": "of the Volcano",
+					"min_ilvl": 40,
+					"min": 16,
+					"max": 20
+				},
+				{
+					"name": "of the Phoenix",
+					"min_ilvl": 55,
+					"min": 21,
+					"max": 26
+				},
+				{
+					"name": "of the Greater Phoenix",
+					"min_ilvl": 70,
+					"min": 24,
+					"max": 30
+				},
+				{
+					"name": "of the Elder Phoenix",
+					"min_ilvl": 82,
+					"min": 27,
+					"max": 34
+				},
+				{
+					"name": "of the Eternal Phoenix",
+					"min_ilvl": 95,
+					"min": 30,
+					"max": 38
+				}
+			]
+		},
+		{
+			"id": "ice_res",
+			"type": "suffix",
+			"stat": "ice_res",
+			"range": false,
+			"weight": 7.0,
+			"only": [],
+			"mult": {
+				"weapon": 0.3
+			},
+			"tiers": [
+				{
+					"name": "of Frost",
+					"min_ilvl": 1,
+					"min": 3,
+					"max": 6
+				},
+				{
+					"name": "of Winter",
+					"min_ilvl": 12,
+					"min": 7,
+					"max": 10
+				},
+				{
+					"name": "of the Glacier",
+					"min_ilvl": 25,
+					"min": 11,
+					"max": 15
+				},
+				{
+					"name": "of the Tundra",
+					"min_ilvl": 40,
+					"min": 16,
+					"max": 20
+				},
+				{
+					"name": "of the Yeti",
+					"min_ilvl": 55,
+					"min": 21,
+					"max": 26
+				},
+				{
+					"name": "of the Greater Yeti",
+					"min_ilvl": 70,
+					"min": 24,
+					"max": 30
+				},
+				{
+					"name": "of the Elder Yeti",
+					"min_ilvl": 82,
+					"min": 27,
+					"max": 34
+				},
+				{
+					"name": "of the Eternal Yeti",
+					"min_ilvl": 95,
+					"min": 30,
+					"max": 38
+				}
+			]
+		},
+		{
+			"id": "magic_res",
+			"type": "suffix",
+			"stat": "magic_res",
+			"range": false,
+			"weight": 5.0,
+			"only": [],
+			"mult": {
+				"int": 2.0,
+				"weapon": 0.3
+			},
+			"tiers": [
+				{
+					"name": "of Warding",
+					"min_ilvl": 1,
+					"min": 2,
+					"max": 4
+				},
+				{
+					"name": "of Shielding",
+					"min_ilvl": 12,
+					"min": 5,
+					"max": 7
+				},
+				{
+					"name": "of Abjuration",
+					"min_ilvl": 25,
+					"min": 8,
+					"max": 10
+				},
+				{
+					"name": "of the Ward",
+					"min_ilvl": 40,
+					"min": 11,
+					"max": 14
+				},
+				{
+					"name": "of Negation",
+					"min_ilvl": 55,
+					"min": 15,
+					"max": 18
+				},
+				{
+					"name": "of Greater Negation",
+					"min_ilvl": 70,
+					"min": 17,
+					"max": 21
+				},
+				{
+					"name": "of Elder Negation",
+					"min_ilvl": 82,
+					"min": 20,
+					"max": 23
+				},
+				{
+					"name": "of Eternal Negation",
+					"min_ilvl": 95,
+					"min": 22,
+					"max": 26
+				}
+			]
+		},
+		{
+			"id": "evasion",
+			"type": "suffix",
+			"stat": "evasion",
+			"range": false,
+			"weight": 4.0,
+			"only": [],
+			"mult": {
+				"boots": 3.0,
+				"dex": 2.0,
+				"str": 0.4,
+				"weapon": 0.2,
+				"ring": 0.8,
+				"amulet": 0.6
+			},
+			"tiers": [
+				{
+					"name": "of the Cat",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"name": "of Evasion",
+					"min_ilvl": 12,
+					"min": 3,
+					"max": 3
+				},
+				{
+					"name": "of Shadows",
+					"min_ilvl": 25,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"name": "of the Phantom",
+					"min_ilvl": 40,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"name": "of the Wraith",
+					"min_ilvl": 55,
+					"min": 8,
+					"max": 9
+				},
+				{
+					"name": "of the Greater Wraith",
+					"min_ilvl": 70,
+					"min": 9,
+					"max": 10
+				},
+				{
+					"name": "of the Elder Wraith",
+					"min_ilvl": 82,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"name": "of the Eternal Wraith",
+					"min_ilvl": 95,
+					"min": 12,
+					"max": 13
+				}
+			]
+		},
+		{
+			"id": "speed",
+			"type": "suffix",
+			"stat": "speed",
+			"range": false,
+			"weight": 2.0,
+			"only": [],
+			"mult": {
+				"boots": 8.0,
+				"weapon": 0.5,
+				"gloves": 0.6,
+				"amulet": 1.5
+			},
+			"tiers": [
+				{
+					"name": "of Quickness",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 3
+				},
+				{
+					"name": "of Haste",
+					"min_ilvl": 12,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"name": "of Speed",
+					"min_ilvl": 25,
+					"min": 6,
+					"max": 8
+				},
+				{
+					"name": "of Alacrity",
+					"min_ilvl": 40,
+					"min": 9,
+					"max": 11
+				},
+				{
+					"name": "of the Zephyr",
+					"min_ilvl": 55,
+					"min": 12,
+					"max": 15
+				},
+				{
+					"name": "of the Greater Zephyr",
+					"min_ilvl": 70,
+					"min": 14,
+					"max": 17
+				},
+				{
+					"name": "of the Elder Zephyr",
+					"min_ilvl": 82,
+					"min": 16,
+					"max": 20
+				},
+				{
+					"name": "of the Eternal Zephyr",
+					"min_ilvl": 95,
+					"min": 17,
+					"max": 22
+				}
+			]
+		},
+		{
+			"id": "hp_regen",
+			"type": "suffix",
+			"stat": "hp_regen",
+			"range": false,
+			"weight": 4.0,
+			"only": [],
+			"mult": {
+				"str": 1.6,
+				"body": 1.5,
+				"weapon": 0.3
+			},
+			"tiers": [
+				{
+					"name": "of Mending",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 1
+				},
+				{
+					"name": "of Regrowth",
+					"min_ilvl": 12,
+					"min": 2,
+					"max": 2
+				},
+				{
+					"name": "of Vitality",
+					"min_ilvl": 25,
+					"min": 3,
+					"max": 3
+				},
+				{
+					"name": "of Renewal",
+					"min_ilvl": 40,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"name": "of the Troll",
+					"min_ilvl": 55,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"name": "of the Greater Troll",
+					"min_ilvl": 70,
+					"min": 8,
+					"max": 9
+				},
+				{
+					"name": "of the Elder Troll",
+					"min_ilvl": 82,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"name": "of the Eternal Troll",
+					"min_ilvl": 95,
+					"min": 13,
+					"max": 15
+				}
+			]
+		},
+		{
+			"id": "mp_regen",
+			"type": "suffix",
+			"stat": "mp_regen",
+			"range": false,
+			"weight": 3.0,
+			"only": [],
+			"mult": {
+				"int": 3.0,
+				"wand": 2.0,
+				"staff": 2.0,
+				"amulet": 2.0,
+				"str": 0.3
+			},
+			"tiers": [
+				{
+					"name": "of Focus",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 1
+				},
+				{
+					"name": "of Clarity",
+					"min_ilvl": 12,
+					"min": 1,
+					"max": 1
+				},
+				{
+					"name": "of Meditation",
+					"min_ilvl": 25,
+					"min": 2,
+					"max": 2
+				},
+				{
+					"name": "of Insight",
+					"min_ilvl": 40,
+					"min": 3,
+					"max": 3
+				},
+				{
+					"name": "of Transcendence",
+					"min_ilvl": 55,
+					"min": 4,
+					"max": 4
+				},
+				{
+					"name": "of Greater Transcendence",
+					"min_ilvl": 70,
+					"min": 5,
+					"max": 5
+				},
+				{
+					"name": "of Elder Transcendence",
+					"min_ilvl": 82,
+					"min": 7,
+					"max": 7
+				},
+				{
+					"name": "of Eternal Transcendence",
+					"min_ilvl": 95,
+					"min": 9,
+					"max": 9
+				}
+			]
+		},
+		{
+			"id": "crit",
+			"type": "suffix",
+			"stat": "crit",
+			"range": false,
+			"weight": 4.0,
+			"only": [],
+			"mult": {
+				"weapon": 2.5,
+				"dagger": 1.5,
+				"gloves": 1.5,
+				"ring": 1.5,
+				"body": 0.3,
+				"boots": 0.3,
+				"helm": 0.6
+			},
+			"tiers": [
+				{
+					"name": "of Piercing",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"name": "of Puncturing",
+					"min_ilvl": 12,
+					"min": 3,
+					"max": 3
+				},
+				{
+					"name": "of Rupture",
+					"min_ilvl": 25,
+					"min": 4,
+					"max": 5
+				},
+				{
+					"name": "of Slaying",
+					"min_ilvl": 40,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"name": "of Annihilation",
+					"min_ilvl": 55,
+					"min": 8,
+					"max": 9
+				},
+				{
+					"name": "of Greater Annihilation",
+					"min_ilvl": 70,
+					"min": 9,
+					"max": 10
+				},
+				{
+					"name": "of Elder Annihilation",
+					"min_ilvl": 82,
+					"min": 10,
+					"max": 12
+				},
+				{
+					"name": "of Eternal Annihilation",
+					"min_ilvl": 95,
+					"min": 12,
+					"max": 13
+				}
+			]
+		},
+		{
+			"id": "heal_pow",
+			"type": "suffix",
+			"stat": "heal_pow",
+			"range": false,
+			"weight": 2.0,
+			"only": [],
+			"mult": {
+				"int": 2.5,
+				"staff": 3.0,
+				"wand": 2.0,
+				"amulet": 2.0,
+				"str": 0.3
+			},
+			"tiers": [
+				{
+					"name": "of Mercy",
+					"min_ilvl": 1,
+					"min": 3,
+					"max": 5
+				},
+				{
+					"name": "of Grace",
+					"min_ilvl": 12,
+					"min": 6,
+					"max": 8
+				},
+				{
+					"name": "of Devotion",
+					"min_ilvl": 25,
+					"min": 9,
+					"max": 12
+				},
+				{
+					"name": "of Benediction",
+					"min_ilvl": 40,
+					"min": 13,
+					"max": 16
+				},
+				{
+					"name": "of the Saint",
+					"min_ilvl": 55,
+					"min": 17,
+					"max": 20
+				},
+				{
+					"name": "of the Greater Saint",
+					"min_ilvl": 70,
+					"min": 20,
+					"max": 23
+				},
+				{
+					"name": "of the Elder Saint",
+					"min_ilvl": 82,
+					"min": 22,
+					"max": 26
+				},
+				{
+					"name": "of the Eternal Saint",
+					"min_ilvl": 95,
+					"min": 25,
+					"max": 29
+				}
+			]
+		},
+		{
+			"id": "ow_freeze",
+			"type": "suffix",
+			"stat": "ow_freeze",
+			"range": false,
+			"weight": 0.6,
+			"only": [
+				"armour",
+				"jewel"
+			],
+			"mult": {
+				"helm": 2.0,
+				"amulet": 2.0
+			},
+			"tiers": [
+				{
+					"name": "of Menace",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 1
+				},
+				{
+					"name": "of Dread",
+					"min_ilvl": 12,
+					"min": 2,
+					"max": 2
+				},
+				{
+					"name": "of Terror",
+					"min_ilvl": 25,
+					"min": 2,
+					"max": 2
+				},
+				{
+					"name": "of Horror",
+					"min_ilvl": 40,
+					"min": 3,
+					"max": 3
+				},
+				{
+					"name": "of the Butcher",
+					"min_ilvl": 55,
+					"min": 4,
+					"max": 4
+				},
+				{
+					"name": "of the Greater Butcher",
+					"min_ilvl": 70,
+					"min": 5,
+					"max": 5
+				},
+				{
+					"name": "of the Elder Butcher",
+					"min_ilvl": 82,
+					"min": 7,
+					"max": 7
+				},
+				{
+					"name": "of the Eternal Butcher",
+					"min_ilvl": 95,
+					"min": 9,
+					"max": 9
+				}
+			]
+		},
+		{
+			"id": "ow_flee_freeze",
+			"type": "suffix",
+			"stat": "ow_flee_freeze",
+			"range": false,
+			"weight": 0.6,
+			"only": [
+				"armour",
+				"jewel"
+			],
+			"mult": {
+				"boots": 2.5,
+				"dex": 1.5
+			},
+			"tiers": [
+				{
+					"name": "of Escape",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 2
+				},
+				{
+					"name": "of Evasion's Gift",
+					"min_ilvl": 12,
+					"min": 3,
+					"max": 3
+				},
+				{
+					"name": "of the Getaway",
+					"min_ilvl": 25,
+					"min": 4,
+					"max": 4
+				},
+				{
+					"name": "of Vanishing",
+					"min_ilvl": 40,
+					"min": 5,
+					"max": 5
+				},
+				{
+					"name": "of the Ghost",
+					"min_ilvl": 55,
+					"min": 6,
+					"max": 6
+				},
+				{
+					"name": "of the Greater Ghost",
+					"min_ilvl": 70,
+					"min": 8,
+					"max": 8
+				},
+				{
+					"name": "of the Elder Ghost",
+					"min_ilvl": 82,
+					"min": 10,
+					"max": 10
+				},
+				{
+					"name": "of the Eternal Ghost",
+					"min_ilvl": 95,
+					"min": 13,
+					"max": 13
+				}
+			]
+		},
+		{
+			"id": "ow_radius",
+			"type": "suffix",
+			"stat": "ow_radius",
+			"range": false,
+			"weight": 0.4,
+			"only": [
+				"armour",
+				"jewel"
+			],
+			"mult": {
+				"amulet": 2.0,
+				"ring": 1.5
+			},
+			"tiers": [
+				{
+					"name": "of Reach",
+					"min_ilvl": 1,
+					"min": 1,
+					"max": 1
+				},
+				{
+					"name": "of Presence",
+					"min_ilvl": 12,
+					"min": 1,
+					"max": 1
+				},
+				{
+					"name": "of Dominion",
+					"min_ilvl": 25,
+					"min": 2,
+					"max": 2
+				},
+				{
+					"name": "of Command",
+					"min_ilvl": 40,
+					"min": 2,
+					"max": 2
+				},
+				{
+					"name": "of Sovereignty",
+					"min_ilvl": 55,
+					"min": 3,
+					"max": 3
+				},
+				{
+					"name": "of Greater Sovereignty",
+					"min_ilvl": 70,
+					"min": 4,
+					"max": 4
+				},
+				{
+					"name": "of Elder Sovereignty",
+					"min_ilvl": 82,
+					"min": 5,
+					"max": 5
+				},
+				{
+					"name": "of Eternal Sovereignty",
+					"min_ilvl": 95,
+					"min": 7,
+					"max": 7
+				}
+			]
+		},
+		{
+			"id": "double_hit",
+			"type": "suffix",
+			"stat": "double_hit",
+			"range": false,
+			"weight": 1.2,
+			"only": [
+				"weapon",
+				"gloves",
+				"ring"
+			],
+			"mult": {
+				"bow": 0.0,
+				"wand": 0.0,
+				"staff": 0.3,
+				"gloves": 0.6,
+				"ring": 0.3
+			},
+			"tiers": [
+				{
+					"name": "of Fervour",
+					"min_ilvl": 1,
+					"min": 3,
+					"max": 5
+				},
+				{
+					"name": "of Fury",
+					"min_ilvl": 12,
+					"min": 6,
+					"max": 7
+				},
+				{
+					"name": "of Frenzy",
+					"min_ilvl": 25,
+					"min": 8,
+					"max": 10
+				},
+				{
+					"name": "of Rampage",
+					"min_ilvl": 40,
+					"min": 11,
+					"max": 13
+				},
+				{
+					"name": "of Carnage",
+					"min_ilvl": 55,
+					"min": 14,
+					"max": 16
+				},
+				{
+					"name": "of Greater Carnage",
+					"min_ilvl": 70,
+					"min": 16,
+					"max": 18
+				},
+				{
+					"name": "of Elder Carnage",
+					"min_ilvl": 82,
+					"min": 18,
+					"max": 21
+				},
+				{
+					"name": "of Eternal Carnage",
+					"min_ilvl": 95,
+					"min": 20,
+					"max": 23
+				}
+			]
+		}
+	],
+	"uniques": [
+		{
+			"id": "wanderers_soles",
+			"name": "Wanderer's Soles",
+			"base": "boots_dex_0",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "They have walked further than you ever will.",
+			"mods": [
+				{
+					"k": "speed",
+					"v": 12
+				},
+				{
+					"k": "evasion",
+					"v": 5
+				},
+				{
+					"k": "hp",
+					"v": 10
+				},
+				{
+					"k": "hp_regen",
+					"v": 2
+				}
+			]
+		},
+		{
+			"id": "slimebane",
+			"name": "Slimebane",
+			"base": "sword_1",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "Still faintly sticky.",
+			"mods": [
+				{
+					"k": "add_fire",
+					"v": 2,
+					"v2": 5
+				},
+				{
+					"k": "crit",
+					"v": 10
+				},
+				{
+					"k": "str",
+					"v": 2
+				}
+			]
+		},
+		{
+			"id": "emberwick",
+			"name": "Emberwick",
+			"base": "wand_1",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "Light it at both ends.",
+			"mods": [
+				{
+					"k": "add_fire",
+					"v": 3,
+					"v2": 6
+				},
+				{
+					"k": "fire_dmg",
+					"v": 25
+				},
+				{
+					"k": "spell_dmg",
+					"v": 15
+				}
+			]
+		},
+		{
+			"id": "thornheart",
+			"name": "Thornheart",
+			"base": "body_str_0",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "What bleeds you, bleeds them.",
+			"mods": [
+				{
+					"k": "def",
+					"v": 30
+				},
+				{
+					"k": "hp",
+					"v": 25
+				},
+				{
+					"k": "fire_res",
+					"v": 10
+				},
+				{
+					"k": "con",
+					"v": 3
+				}
+			]
+		},
+		{
+			"id": "grandfathers_cleaver",
+			"name": "Grandfather's Cleaver",
+			"base": "axe_4",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "He swore it could split a boar in two. It can.",
+			"mods": [
+				{
+					"k": "phys_dmg",
+					"v": 40
+				},
+				{
+					"k": "double_hit",
+					"v": 15
+				},
+				{
+					"k": "def",
+					"v": -10
+				}
+			]
+		},
+		{
+			"id": "whisperwind",
+			"name": "Whisperwind",
+			"base": "bow_4",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "The arrow arrives before the sound.",
+			"mods": [
+				{
+					"k": "accuracy",
+					"v": 10
+				},
+				{
+					"k": "crit",
+					"v": 8
+				},
+				{
+					"k": "speed",
+					"v": 15
+				},
+				{
+					"k": "dex",
+					"v": 3
+				}
+			]
+		},
+		{
+			"id": "band_of_the_boar",
+			"name": "Band of the Boar",
+			"base": "ring_0",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "Stubborn, thick-skinned, and proud of it.",
+			"mods": [
+				{
+					"k": "str",
+					"v": 3
+				},
+				{
+					"k": "con",
+					"v": 3
+				},
+				{
+					"k": "hp",
+					"v": 15
+				},
+				{
+					"k": "hp_regen",
+					"v": 1
+				}
+			]
+		},
+		{
+			"id": "owls_eye",
+			"name": "Owl's Eye",
+			"base": "amulet_0",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "It never blinks.",
+			"mods": [
+				{
+					"k": "int",
+					"v": 5
+				},
+				{
+					"k": "mp",
+					"v": 20
+				},
+				{
+					"k": "mp_regen",
+					"v": 2
+				},
+				{
+					"k": "spell_dmg",
+					"v": 10
+				}
+			]
+		},
+		{
+			"id": "hollow_crown",
+			"name": "Crown of the Hollow King",
+			"base": "helm_int_1",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "The king is gone. The crown still rules.",
+			"mods": [
+				{
+					"k": "int",
+					"v": 8
+				},
+				{
+					"k": "spell_dmg",
+					"v": 12
+				},
+				{
+					"k": "magic_res",
+					"v": 15
+				},
+				{
+					"k": "mp_regen",
+					"v": 2
+				}
+			]
+		},
+		{
+			"id": "broodmothers_coil",
+			"name": "Broodmother's Coil",
+			"base": "ring_1",
+			"boss_only": true,
+			"drop_weight": 1.0,
+			"flavor": "Still warm. Still twitching.",
+			"mods": [
+				{
+					"k": "poison_res",
+					"v": 20
+				},
+				{
+					"k": "poison_on_hit",
+					"v": 5
+				}
+			]
+		},
+		{
+			"id": "malgraves_phylactery",
+			"name": "Malgrave's Phylactery",
+			"base": "amulet_2",
+			"boss_only": true,
+			"drop_weight": 1.0,
+			"flavor": "Something inside it is still screaming.",
+			"mods": [
+				{
+					"k": "int",
+					"v": 12
+				},
+				{
+					"k": "spell_dmg",
+					"v": 30
+				},
+				{
+					"k": "magic_res",
+					"v": 20
+				},
+				{
+					"k": "hp",
+					"v": 60
+				}
+			]
+		},
+		{
+			"id": "bramble_loop",
+			"name": "Bramble Loop",
+			"base": "ring_0",
+			"boss_only": true,
+			"drop_weight": 1.0,
+			"flavor": "Found by a little girl in the forest. It never quite stops growing.",
+			"mods": [
+				{
+					"k": "hp_regen",
+					"v": 2
+				},
+				{
+					"k": "ensnare_chance",
+					"v": 10
+				}
+			]
+		},
+		{
+			"id": "spidersilk_wraps",
+			"name": "Spidersilk Wraps",
+			"base": "gloves_dex_1",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "Woven in the dark beneath the ridge.",
+			"mods": [
+				{
+					"k": "double_hit",
+					"v": 12
+				},
+				{
+					"k": "accuracy",
+					"v": 8
+				},
+				{
+					"k": "evasion",
+					"v": 6
+				},
+				{
+					"k": "dex",
+					"v": 4
+				}
+			]
+		},
+		{
+			"id": "ironclaw_carapace",
+			"name": "Ironclaw Carapace",
+			"base": "body_str_1",
+			"boss_only": true,
+			"drop_weight": 1.0,
+			"flavor": "Cut from the old crab's own shell. It still smells of the sea.",
+			"mods": [
+				{
+					"k": "con",
+					"v": 10
+				},
+				{
+					"k": "def",
+					"v": 45
+				},
+				{
+					"k": "def_pct",
+					"v": 8
+				},
+				{
+					"k": "hp",
+					"v": 50
+				},
+				{
+					"k": "str",
+					"v": 4
+				}
+			]
+		},
+		{
+			"id": "tidebreaker_gauntlets",
+			"name": "Tidebreaker Gauntlets",
+			"base": "gloves_str_1",
+			"boss_only": true,
+			"drop_weight": 1.0,
+			"flavor": "Ironclaw's pincers, hammered flat. They still want to grab things.",
+			"mods": [
+				{
+					"k": "str",
+					"v": 8
+				},
+				{
+					"k": "con",
+					"v": 6
+				},
+				{
+					"k": "def",
+					"v": 25
+				},
+				{
+					"k": "def_pct",
+					"v": 5
+				},
+				{
+					"k": "phys_dmg",
+					"v": 12
+				}
+			]
+		},
+		{
+			"id": "crown_of_the_deep",
+			"name": "Crown of the Deep",
+			"base": "helm_str_1",
+			"boss_only": true,
+			"drop_weight": 1.0,
+			"flavor": "Barnacles and old iron, pulled from the grotto's deepest pool.",
+			"mods": [
+				{
+					"k": "con",
+					"v": 12
+				},
+				{
+					"k": "def",
+					"v": 30
+				},
+				{
+					"k": "def_pct",
+					"v": 6
+				},
+				{
+					"k": "ice_res",
+					"v": 20
+				},
+				{
+					"k": "hp_regen",
+					"v": 3
+				}
+			]
+		},
+		{
+			"id": "emberpalm",
+			"name": "Emberpalm",
+			"base": "fist_4",
+			"boss_only": false,
+			"drop_weight": 1.0,
+			"flavor": "The old master's wraps never cooled.",
+			"mods": [
+				{
+					"k": "add_fire",
+					"v": 5,
+					"v2": 11
+				},
+				{
+					"k": "double_hit",
+					"v": 10
+				},
+				{
+					"k": "dex",
+					"v": 4
+				},
+				{
+					"k": "hp_regen",
+					"v": 2
+				}
+			]
+		}
+	],
+	"stat_text": {
+		"str": "+%d Strength",
+		"dex": "+%d Dexterity",
+		"int": "+%d Intelligence",
+		"con": "+%d Constitution",
+		"all_attr": "+%d to all Attributes",
+		"hp": "+%d Maximum HP",
+		"mp": "+%d Maximum MP",
+		"def": "+%d Armour",
+		"evasion": "+%d%% Evasion",
+		"speed": "+%d%% Speed",
+		"crit": "+%d%% Critical Chance",
+		"accuracy": "+%d%% Chance to Hit",
+		"double_hit": "+%d%% chance to Hit twice with Melee attacks",
+		"phys_dmg": "+%d%% Physical Damage",
+		"spell_dmg": "+%d%% Spell Damage",
+		"fire_dmg": "+%d%% Fire Damage",
+		"ice_dmg": "+%d%% Ice Damage",
+		"heal_pow": "+%d%% Healing Power",
+		"fire_res": "+%d%% Fire Resistance",
+		"ice_res": "+%d%% Ice Resistance",
+		"magic_res": "+%d%% Magic Resistance",
+		"all_res": "+%d%% to all Resistances",
+		"hp_regen": "{regen:%d}",
+		"mp_regen": "+%d MP Regeneration",
+		"ow_freeze": "+%s s monster freeze after victory",
+		"ow_flee_freeze": "+%s s monster freeze after fleeing",
+		"ow_radius": "+%d tiles post-battle freeze radius",
+		"ensnare_chance": "+%d%% chance to Ensnare on Melee Hit",
+		"poison_res": "+%d%% Poison Resistance",
+		"poison_on_hit": "Hits inflict {poison:%d}",
+		"add_phys": "Adds %d-%d Physical damage to Hits",
+		"add_fire": "Adds %d-%d Fire damage to Hits",
+		"add_ice": "Adds %d-%d Ice damage to Hits",
+		"def_pct": "%d%% less Physical damage taken"
+	},
+	"pct_keys": [
+		"def_pct",
+		"ensnare_chance",
+		"poison_res",
+		"evasion",
+		"speed",
+		"crit",
+		"accuracy",
+		"double_hit",
+		"phys_dmg",
+		"spell_dmg",
+		"fire_dmg",
+		"ice_dmg",
+		"heal_pow",
+		"fire_res",
+		"ice_res",
+		"magic_res"
+	],
+	"tenths_keys": [
+		"ow_freeze",
+		"ow_flee_freeze"
+	]
+}
